@@ -2,7 +2,9 @@ Ploneintranet Theme
 ===================
 
 This is package provides:
+
 - static high-fidelity mockup design workspace
+
 - installable Plone theme
 
 Requirements are documented in Google Drive (outside this repo) but will
