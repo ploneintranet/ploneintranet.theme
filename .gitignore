@@ -1,0 +1,13 @@
+.DS_Store
+.node
+node_modules
+npm-debug.log
+release
+Prototype/bundles
+Gemfile.lock
+bundle.js
+stamp-bower
+stamp-npm
+src/bower_components
+Prototype/_site
+src/Patterns
