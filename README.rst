@@ -43,18 +43,16 @@ dependencies of Webwork and build the bundles. You have the option to
 handle this manually or let the all-round-carefree make handle
 things for you.
 
-```
-    % git clone git@github.com:ploneintranet/ploneintranet.theme.git
-    % cd ploneintranet.theme
-    % make
+```% git clone git@github.com:ploneintranet/ploneintranet.theme.git
+% cd ploneintranet.theme
+% make
 ```
 
 The bundles (minified and non-minified) are in `Prototype/bundles`.
 
 In order to make a release tarball, use:
 
-```
-    % make release
+```% make release
 ```
 
 The tarball will be found in `release/`.
@@ -82,5 +80,14 @@ should I do?
 A: There is a fair chance that there was a download error due to timeout or 
 delay in bower.io. The quick shot is to run again. Do make clean to be sure 
 that all local caches are also emptied and run make again. 
+
+
+Q: What are the stamp* files for?
+
+A: Downloading all dependencies takes quite some time. We use these as flags 
+to indicate to make that these steps don't have to run again. That also means 
+if you explicitly want to re-run the bower or npm step, you can just remove Theme
+stamp-bower or stamp-npm file and run make again.
+
 
 
