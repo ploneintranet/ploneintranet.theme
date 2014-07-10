@@ -106,6 +106,7 @@ designerhappy:
 	cd Prototype/bundles && tar xfz $(BUNDLENAME)-$(LATEST).tar.gz && rm $(BUNDLENAME)-$(LATEST).tar.gz
 	cd Prototype/bundles && if test -e $(BUNDLENAME).js; then rm $(BUNDLENAME).js; fi
 	cd Prototype/bundles && ln -sf $(BUNDLENAME)-$(LATEST).js $(BUNDLENAME).js
+	echo "The latest js bundle has been downloaded to Prototype/bundles. You might want to run jekyll. Designer, you can be happy now."
 
 
 autoprefixer:
