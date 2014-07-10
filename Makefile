@@ -101,6 +101,7 @@ jsrelease: bundle.js
 	git push
 
 designerhappy:
+	mkdir -p Prototype/bundles
 	curl $(BUNDLEURL) -o Prototype/bundles/$(BUNDLENAME)-$(LATEST).tar.gz
 	cd Prototype/bundles && tar xfz $(BUNDLENAME)-$(LATEST).tar.gz && rm $(BUNDLENAME)-$(LATEST).tar.gz
 	cd Prototype/bundles && if test -e $(BUNDLENAME).js; then rm $(BUNDLENAME).js; fi
