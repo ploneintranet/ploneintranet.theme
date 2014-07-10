@@ -19,7 +19,7 @@ RELEASE         = $(shell git describe --tags)
 RELEASE_DIR		= release/Prototype
 RELEASE_TARBALL = release/Prototype-$(RELEASE).tar.gz
 
-LATEST          = `cat LATEST`
+LATEST          = $(shell cat LATEST)
 BUNDLENAME      = ploneintranet
 BUNDLEURL		= http://products.syslab.com/packages/$(BUNDLENAME)/$(LATEST)/$(BUNDLENAME)-$(LATEST).tar.gz
 
@@ -99,6 +99,13 @@ jsrelease: bundle.js
 	git add LATEST
 	git commit -m "distupload: updated latest file to recent js bundle"
 	git push
+
+designerhappy:
+	curl $(BUNDLEURL) -o Prototype/bundles/$(BUNDLENAME)-$(LATEST).tar.gz
+	cd Prototype/bundles && tar xfz $(BUNDLENAME)-$(LATEST).tar.gz && rm $(BUNDLENAME)-$(LATEST).tar.gz
+	cd Prototype/bundles && if test -e $(BUNDLENAME).js; then rm $(BUNDLENAME).js; fi
+	cd Prototype/bundles && ln -sf $(BUNDLENAME)-$(LATEST).js $(BUNDLENAME).js
+
 
 autoprefixer:
 	node_modules/.bin/grunt css
