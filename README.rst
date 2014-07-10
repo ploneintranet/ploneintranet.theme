@@ -43,16 +43,18 @@ dependencies of Webwork and build the bundles. You have the option to
 handle this manually or let the all-round-carefree make handle
 things for you.
 
-```% git clone git@github.com:ploneintranet/ploneintranet.theme.git
-% cd ploneintranet.theme
-% make
+```
+git clone git@github.com:ploneintranet/ploneintranet.theme.git
+cd ploneintranet.theme
+make
 ```
 
 The bundles (minified and non-minified) are in `Prototype/bundles`.
 
 In order to make a release tarball, use:
 
-```% make release
+```
+make release
 ```
 
 The tarball will be found in `release/`.
