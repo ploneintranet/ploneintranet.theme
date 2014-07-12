@@ -9,5 +9,5 @@ bundle.js
 stamp-bower
 stamp-npm
 src/bower_components
-Prototype/_site
+prototype/_site
 src/Patterns
