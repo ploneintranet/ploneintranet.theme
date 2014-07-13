@@ -11,3 +11,4 @@ stamp-npm
 src/bower_components
 prototype/_site
 src/Patterns
+.sass-cache
