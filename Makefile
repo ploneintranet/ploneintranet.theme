@@ -16,8 +16,8 @@ JSHINTEXCEPTIONS = $(GENERATED) \
 CHECKSOURCES	= $(filter-out $(JSHINTEXCEPTIONS),$(SOURCES))
 
 RELEASE         = $(shell git describe --tags)
-RELEASE_DIR		= release/Prototype
-RELEASE_TARBALL = release/Prototype-$(RELEASE).tar.gz
+RELEASE_DIR		= release/prototype
+RELEASE_TARBALL = release/prototype-$(RELEASE).tar.gz
 
 LATEST          = $(shell cat LATEST)
 BUNDLENAME      = ploneintranet
@@ -67,13 +67,13 @@ css:
 bundle bundle.js: patterns $(GENERATED) $(SOURCES) jekyll css build.js stamp-bower
 	node_modules/.bin/r.js -o build.js optimize=none
 	node_modules/.bin/grunt uglify
-	mv bundle.js Prototype/bundles/$(BUNDLENAME)-$(RELEASE).js
-	ln -sf $(BUNDLENAME)-$(RELEASE).js Prototype/bundles/$(BUNDLENAME).js
-	mkdir -p Prototype/_site/bundles
-	cp Prototype/bundles/$(BUNDLENAME)-$(RELEASE).js Prototype/_site/bundles/$(BUNDLENAME).js
-	mv bundle.min.js Prototype/bundles/$(BUNDLENAME)-$(RELEASE).min.js
-	ln -sf $(BUNDLENAME)-$(RELEASE).min.js Prototype/bundles/$(BUNDLENAME).min.js
-	cp Prototype/bundles/$(BUNDLENAME)-$(RELEASE).min.js Prototype/_site/bundles/$(BUNDLENAME).min.js
+	mv bundle.js prototype/bundles/$(BUNDLENAME)-$(RELEASE).js
+	ln -sf $(BUNDLENAME)-$(RELEASE).js prototype/bundles/$(BUNDLENAME).js
+	mkdir -p prototype/_site/bundles
+	cp prototype/bundles/$(BUNDLENAME)-$(RELEASE).js prototype/_site/bundles/$(BUNDLENAME).js
+	mv bundle.min.js prototype/bundles/$(BUNDLENAME)-$(RELEASE).min.js
+	ln -sf $(BUNDLENAME)-$(RELEASE).min.js prototype/bundles/$(BUNDLENAME).min.js
+	cp prototype/bundles/$(BUNDLENAME)-$(RELEASE).min.js prototype/_site/bundles/$(BUNDLENAME).min.js
 
 test-bundle test-bundle.js: $(GENERATED) $(SOURCES) test-build.js stamp-bower
 	node_modules/.bin/r.js -o test-build.js
@@ -90,7 +90,7 @@ jsrelease: bundle.js
 	# This one is used by make release and can be used separately to do a
 	# version for Designers only
 	mkdir -p release
-	cp Prototype/bundles/$(BUNDLENAME)-$(RELEASE).js release
+	cp prototype/bundles/$(BUNDLENAME)-$(RELEASE).js release
 	tar cfz release/$(BUNDLENAME)-$(RELEASE).js.tar.gz -C release $(BUNDLENAME)-$(RELEASE).js
 	curl -X POST -F 'content=@release/$(BUNDLENAME)-$(RELEASE).js.tar.gz' 'http://products.syslab.com/?name=$(BUNDLENAME)&version=$(RELEASE)&:action=file_upload'
 	rm release/$(BUNDLENAME)-$(RELEASE).js.tar.gz
@@ -101,54 +101,54 @@ jsrelease: bundle.js
 	git push
 
 designerhappy:
-	mkdir -p Prototype/bundles
-	curl $(BUNDLEURL) -o Prototype/bundles/$(BUNDLENAME)-$(LATEST).tar.gz
-	cd Prototype/bundles && tar xfz $(BUNDLENAME)-$(LATEST).tar.gz && rm $(BUNDLENAME)-$(LATEST).tar.gz
-	cd Prototype/bundles && if test -e $(BUNDLENAME).js; then rm $(BUNDLENAME).js; fi
-	cd Prototype/bundles && ln -sf $(BUNDLENAME)-$(LATEST).js $(BUNDLENAME).js
-	echo "The latest js bundle has been downloaded to Prototype/bundles. You might want to run jekyll. Designer, you can be happy now."
+	mkdir -p prototype/bundles
+	curl $(BUNDLEURL) -o prototype/bundles/$(BUNDLENAME)-$(LATEST).tar.gz
+	cd prototype/bundles && tar xfz $(BUNDLENAME)-$(LATEST).tar.gz && rm $(BUNDLENAME)-$(LATEST).tar.gz
+	cd prototype/bundles && if test -e $(BUNDLENAME).js; then rm $(BUNDLENAME).js; fi
+	cd prototype/bundles && ln -sf $(BUNDLENAME)-$(LATEST).js $(BUNDLENAME).js
+	echo "The latest js bundle has been downloaded to prototype/bundles. You might want to run jekyll. Designer, you can be happy now."
 
 
 autoprefixer:
 	node_modules/.bin/grunt css
 
 jekyll:
-	cd Prototype; bundle exec jekyll build
+	cd prototype; bundle exec jekyll build
 
 dev: jekyll autoprefixer
 	# Set up development environment
 	# install a require.js config
-	cp src/bower_components/requirejs/require.js Prototype/_site/bundles/$(BUNDLENAME)-modular.js
-	ln -s ../../../src Prototype/_site/bundles
-	ln -s src/patterns.js Prototype/_site/main.js
+	cp src/bower_components/requirejs/require.js prototype/_site/bundles/$(BUNDLENAME)-modular.js
+	ln -s ../../../src prototype/_site/bundles
+	ln -s src/patterns.js prototype/_site/main.js
 
 release: jekyll autoprefixer bundle.js
 	# I assume that all html in _site and js in _site/bundles is built and ready for upload
-	mkdir -p release/Prototype
+	mkdir -p release/prototype
 	# make sure it is empty
-	rm -rf release/Prototype/*
+	rm -rf release/prototype/*
 	test "$$(git status --porcelain)x" = "x" || (git status && false)
-	cp -R Prototype/_site $(RELEASE_DIR)/
-	sed -i -e "s,<script src=\"bundles/$(BUNDLENAME).js\",<script src=\"bundles/$(shell readlink Prototype/bundles/$(BUNDLENAME).js)\"," $(RELEASE_DIR)/_site/*.html
+	cp -R prototype/_site $(RELEASE_DIR)/
+	sed -i -e "s,<script src=\"bundles/$(BUNDLENAME).js\",<script src=\"bundles/$(shell readlink prototype/bundles/$(BUNDLENAME).js)\"," $(RELEASE_DIR)/_site/*.html
 	# Cleaning up non mission critical elements
 	rm -f $(RELEASE_DIR)/_site/*-e
 	rm -rf $(RELEASE_DIR)/_site/bundles/*
-	cp Prototype/bundles/$(BUNDLENAME)-$(RELEASE).js $(RELEASE_DIR)/_site/bundles/
-	cp Prototype/bundles/$(BUNDLENAME)-$(RELEASE).min.js $(RELEASE_DIR)/_site/bundles/
+	cp prototype/bundles/$(BUNDLENAME)-$(RELEASE).js $(RELEASE_DIR)/_site/bundles/
+	cp prototype/bundles/$(BUNDLENAME)-$(RELEASE).min.js $(RELEASE_DIR)/_site/bundles/
 	ln -sf $(BUNDLENAME)-$(RELEASE).js $(RELEASE_DIR)/_site/bundles/$(BUNDLENAME).js
 	ln -sf $(BUNDLENAME)-$(RELEASE).min.js $(RELEASE_DIR)/_site/bundles/$(BUNDLENAME).min.js
-	tar cfz $(RELEASE_TARBALL) -C release Prototype
+	tar cfz $(RELEASE_TARBALL) -C release prototype
 #   Here we usually copy the complete bundle containing all style, html and js files to the deployment server.
 #   This has to be adapted later to create a diazo usable package and put it in place
-#	@echo "Copy Prototype archive to gocept servers"
-#	ln -sf Prototype-$(RELEASE).tar.gz release/LATEST
+#	@echo "Copy prototype archive to gocept servers"
+#	ln -sf prototype-$(RELEASE).tar.gz release/LATEST
 #	scp $(RELEASE_TARBALL) release/LATEST webworkstag00.gocept.net:/srv/www/localhost/htdocs/install-archives/deliverance/
-#	rm -rf release/Prototype $(RELEASE_TARBALL) release/LATEST
+#	rm -rf release/prototype $(RELEASE_TARBALL) release/LATEST
 	echo "Please pin the following release id: $(RELEASE)"
 
 clean::
 	rm -f bundle.js
-	rm -rf Prototype/bundles/*
+	rm -rf prototype/bundles/*
 
 
 .PHONY: all bundle clean check jshint tests check-clean release
