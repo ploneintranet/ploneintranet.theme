@@ -1,0 +1,4303 @@
+{
+"CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
+"creatorBuild": "17018",
+"files": {
+	"\/build.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build.js",
+		"outputAbbreviatedPath": "\/min\/build-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Gruntfile.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Gruntfile.js",
+		"outputAbbreviatedPath": "\/min\/Gruntfile-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/prototype\/_layouts\/shell.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_layouts\/shell.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/auto-scale\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/auto-scale\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/auto-submit\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/auto-submit\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/auto-suggest\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/auto-suggest\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/autofocus\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/autofocus\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/bumper\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/bumper\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/bundles\/patterns.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/bundles\/patterns.js",
+		"outputAbbreviatedPath": "\/prototype\/_site\/bundles\/min\/patterns-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/prototype\/_site\/bundles\/patterns.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/bundles\/patterns.min.js",
+		"outputAbbreviatedPath": "\/prototype\/_site\/bundles\/min\/patterns.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/prototype\/_site\/changes.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/changes.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/changes.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/creating-a-pattern\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/creating-a-pattern\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/auto-scale\/autoscale.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/auto-scale\/autoscale.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/auto-scale\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/auto-scale\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/auto-scale\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/auto-scale\/example-2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/auto-scale\/example-2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/auto-scale\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/auto-scale\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/auto-submit\/autosubmit.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/auto-submit\/autosubmit.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/auto-submit\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/auto-submit\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/auto-submit\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/auto-submit\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/auto-submit\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/auto-submit\/pattern-test-response.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/auto-submit\/pattern-test-response.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/auto-submit\/test.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/auto-submit\/test.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/auto-suggest\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/auto-suggest\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/auto-suggest\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/auto-suggest\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/auto-suggest\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/auto-suggest\/select2.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/auto-suggest\/select2.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/auto-suggest\/select2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 613,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/auto-suggest\/select2.png",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/auto-suggest\/select2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/autofocus\/autofocus.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/autofocus\/autofocus.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/autofocus\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/autofocus\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/autofocus\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/autofocus\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/autofocus\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/bumper\/bumper.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/bumper\/bumper.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/bumper\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/bumper\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/bumper\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/bumper\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/bumper\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/calendar\/calendar-sources.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/calendar\/calendar-sources.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/calendar\/calendar.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/calendar\/calendar.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/calendar\/description.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/calendar\/description.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/calendar\/description.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/calendar\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/calendar\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/calendar\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/calendar\/fullcalendar.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/calendar\/fullcalendar.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/calendar\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/calendar\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/carousel\/carousel-arrows.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3882,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/carousel\/carousel-arrows.png",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/carousel\/carousel-arrows.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/carousel\/carousel.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/carousel\/carousel.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/carousel\/description.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/carousel\/description.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/carousel\/description.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/carousel\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/carousel\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/carousel\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/carousel\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/carousel\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/checked-flag\/checkedflag.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/checked-flag\/checkedflag.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/checked-flag\/description.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/checked-flag\/description.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/checked-flag\/description.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/checked-flag\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/checked-flag\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/checked-flag\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/checked-flag\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/checked-flag\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/checklist\/checklist.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/checklist\/checklist.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/checklist\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/checklist\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/checklist\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/checklist\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/checklist\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/collapsible\/collapsible-sources.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/collapsible\/collapsible-sources.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/collapsible\/collapsible.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/collapsible\/collapsible.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/collapsible\/description.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/collapsible\/description.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/collapsible\/description.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/collapsible\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/collapsible\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/collapsible\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/collapsible\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/collapsible\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/depends\/depends.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/depends\/depends.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/depends\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/depends\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/depends\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/depends\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/depends\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/edit-tinymce\/description.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/edit-tinymce\/description.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/edit-tinymce\/description.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/edit-tinymce\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/edit-tinymce\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/edit-tinymce\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/edit-tinymce\/edit-tinymce.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/edit-tinymce\/edit-tinymce.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/edit-tinymce\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/edit-tinymce\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/edit-tinymce\/tiny-content.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/edit-tinymce\/tiny-content.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/equaliser\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/equaliser\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/equaliser\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/equaliser\/equaliser.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/equaliser\/equaliser.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/equaliser\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/equaliser\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/expandable-tree\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/expandable-tree\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/expandable-tree\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/expandable-tree\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/expandable-tree\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/expandable-tree\/tree.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/expandable-tree\/tree.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/focus\/description.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/focus\/description.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/focus\/description.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/focus\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/focus\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/focus\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/focus\/focus.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/focus\/focus.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/focus\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/focus\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/forward\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/forward\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/forward\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/forward\/forward.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/forward\/forward.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/forward\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/forward\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/gallery\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/gallery\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/gallery\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/gallery\/full-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66363,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/gallery\/full-1.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/gallery\/full-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/gallery\/full-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 255513,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/gallery\/full-2.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/gallery\/full-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/gallery\/full-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 247814,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/gallery\/full-3.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/gallery\/full-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/gallery\/gallery.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/gallery\/gallery.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/gallery\/icons.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3346,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/gallery\/icons.png",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/gallery\/icons.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/gallery\/icons@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5445,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/gallery\/icons@2x.png",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/gallery\/icons@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/gallery\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/gallery\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/gallery\/photoswipe.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/gallery\/photoswipe.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/gallery\/thumb-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8667,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/gallery\/thumb-1.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/gallery\/thumb-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/gallery\/thumb-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14926,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/gallery\/thumb-2.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/gallery\/thumb-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/gallery\/thumb-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17250,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/gallery\/thumb-3.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/gallery\/thumb-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/grid\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/grid\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/grid\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/grid\/grid.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/grid\/grid.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/grid\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/grid\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/grid\/offsets.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 79796,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/grid\/offsets.png",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/grid\/offsets.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/grid\/source-ordering.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91329,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/grid\/source-ordering.png",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/grid\/source-ordering.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/image-crop\/description.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/image-crop\/description.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/image-crop\/description.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/image-crop\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/image-crop\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/image-crop\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/image-crop\/image-crop.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/image-crop\/image-crop.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/image-crop\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/image-crop\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/image-crop\/pool.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27637,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/image-crop\/pool.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/image-crop\/pool.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/inject-history\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/inject-history\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/inject-history\/page1.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/inject-history\/page1.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/inject-history\/page2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/inject-history\/page2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/inject-history\/page3.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/inject-history\/page3.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/inject\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/inject\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/inject\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/inject\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/inject\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/inject\/inject-sources.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/inject\/inject-sources.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/inject\/inject.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/inject\/inject.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/inject\/pattern-test-response.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/inject\/pattern-test-response.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/inject\/test-self-inject.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/inject\/test-self-inject.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/markdown\/content\/content.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/content\/content.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/content\/content.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/markdown\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/markdown\/fonts\/dakota\/DakotaRegular-demo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/dakota\/DakotaRegular-demo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/markdown\/fonts\/dakota\/specimen_files\/easytabs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/dakota\/specimen_files\/easytabs.js",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/dakota\/specimen_files\/min\/easytabs-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/prototype\/_site\/demo\/markdown\/fonts\/dakota\/specimen_files\/grid_12-825-55-15.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/dakota\/specimen_files\/grid_12-825-55-15.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/markdown\/fonts\/dakota\/specimen_files\/specimen_stylesheet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/dakota\/specimen_files\/specimen_stylesheet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/markdown\/fonts\/dakota\/stylesheet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/dakota\/stylesheet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-bold\/FrutigerLTStd65Bold-demo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-bold\/FrutigerLTStd65Bold-demo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-bold\/specimen files\/easytabs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-bold\/specimen files\/easytabs.js",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-bold\/specimen files\/min\/easytabs-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-bold\/specimen files\/frutigerltstd-bold-cleartype.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81702,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-bold\/specimen files\/frutigerltstd-bold-cleartype.png",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-bold\/specimen files\/frutigerltstd-bold-cleartype.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-bold\/specimen files\/grid_12-825-55-15.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-bold\/specimen files\/grid_12-825-55-15.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-bold\/specimen files\/specimen_stylesheet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-bold\/specimen files\/specimen_stylesheet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-bold\/stylesheet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-bold\/stylesheet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-condensed\/FrutigerLTStd57Condensed-demo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-condensed\/FrutigerLTStd57Condensed-demo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-condensed\/specimen_files\/easytabs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-condensed\/specimen_files\/easytabs.js",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-condensed\/specimen_files\/min\/easytabs-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-condensed\/specimen_files\/frutigerltstd-cn-cleartype.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83707,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-condensed\/specimen_files\/frutigerltstd-cn-cleartype.png",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-condensed\/specimen_files\/frutigerltstd-cn-cleartype.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-condensed\/specimen_files\/grid_12-825-55-15.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-condensed\/specimen_files\/grid_12-825-55-15.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-condensed\/specimen_files\/specimen_stylesheet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-condensed\/specimen_files\/specimen_stylesheet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-condensed\/stylesheet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-condensed\/stylesheet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-light-condensed\/FrutigerLTStd47LightCondensed-demo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-light-condensed\/FrutigerLTStd47LightCondensed-demo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-light-condensed\/specimen_files\/easytabs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-light-condensed\/specimen_files\/easytabs.js",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-light-condensed\/specimen_files\/min\/easytabs-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-light-condensed\/specimen_files\/frutigerltstd-cn-cleartype.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83707,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-light-condensed\/specimen_files\/frutigerltstd-cn-cleartype.png",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-light-condensed\/specimen_files\/frutigerltstd-cn-cleartype.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-light-condensed\/specimen_files\/grid_12-825-55-15.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-light-condensed\/specimen_files\/grid_12-825-55-15.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-light-condensed\/specimen_files\/specimen_stylesheet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-light-condensed\/specimen_files\/specimen_stylesheet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-light-condensed\/stylesheet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-light-condensed\/stylesheet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-roman\/FrutigerLTStd55Roman-demo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-roman\/FrutigerLTStd55Roman-demo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-roman\/specimen_files\/easytabs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-roman\/specimen_files\/easytabs.js",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-roman\/specimen_files\/min\/easytabs-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-roman\/specimen_files\/frutigerltstd-roman-cleartype.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80873,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-roman\/specimen_files\/frutigerltstd-roman-cleartype.png",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-roman\/specimen_files\/frutigerltstd-roman-cleartype.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-roman\/specimen_files\/grid_12-825-55-15.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-roman\/specimen_files\/grid_12-825-55-15.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-roman\/specimen_files\/specimen_stylesheet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-roman\/specimen_files\/specimen_stylesheet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-roman\/stylesheet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/fonts\/frutiger-roman\/stylesheet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/markdown\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/markdown\/injected-page.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/injected-page.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/markdown\/markdown.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/markdown.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/markdown\/standalone-test.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/markdown\/standalone-test.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/modal\/buttons-modal.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1573,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/modal\/buttons-modal.png",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/modal\/buttons-modal.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/modal\/description.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/modal\/description.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/modal\/description.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/modal\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/modal\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/modal\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/modal\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/modal\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/modal\/modal-sources.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/modal\/modal-sources.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/modal\/modal.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/modal\/modal.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/navigation\/description.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/navigation\/description.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/navigation\/description.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/navigation\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/navigation\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/navigation\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/navigation\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/navigation\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/navigation\/navigation.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/navigation\/navigation.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/navigation\/pattern-test-response.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/navigation\/pattern-test-response.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/notification\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/notification\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/notification\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/notification\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/notification\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/notification\/inject-notification.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/notification\/inject-notification.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/notification\/inject-source.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/notification\/inject-source.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/notification\/notification.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/notification\/notification.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/composed-injection-test.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/composed-injection-test.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/injection-test.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/injection-test.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/media\/binnenhof.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 382007,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/media\/binnenhof.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/media\/binnenhof.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/media\/chrome-gradient-fix.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1240,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/media\/chrome-gradient-fix.png",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/media\/chrome-gradient-fix.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/media\/dialogues.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 597390,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/media\/dialogues.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/media\/dialogues.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/media\/joker.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 166234,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/media\/joker.png",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/media\/joker.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/media\/pearl-bar.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62123,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/media\/pearl-bar.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/media\/pearl-bar.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/media\/pearl-jewel.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 421962,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/media\/pearl-jewel.png",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/media\/pearl-jewel.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/media\/pearl-model-fingers.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22536,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/media\/pearl-model-fingers.png",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/media\/pearl-model-fingers.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/media\/pearl-model.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 435610,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/media\/pearl-model.png",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/media\/pearl-model.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/media\/pearl-pearl.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30570,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/media\/pearl-pearl.png",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/media\/pearl-pearl.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/media\/pearl-slogan.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16074,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/media\/pearl-slogan.png",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/media\/pearl-slogan.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/notes.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/notes.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/notes.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/standalone-test.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/standalone-test.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/animate.css\/animate.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/animate.css\/animate.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/animate.css\/animate.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/animate.css\/animate.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/animate.css\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/animate.css\/README.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/animate.css\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fontello\/css\/animation.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fontello\/css\/animation.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fontello\/css\/fontello-codes.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fontello\/css\/fontello-codes.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fontello\/css\/fontello-embedded.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fontello\/css\/fontello-embedded.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fontello\/css\/fontello-ie7-codes.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fontello\/css\/fontello-ie7-codes.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fontello\/css\/fontello-ie7.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fontello\/css\/fontello-ie7.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fontello\/css\/fontello.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fontello\/css\/fontello.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fontello\/demo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fontello\/demo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fonts\/dakota\/DakotaRegular-demo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/dakota\/DakotaRegular-demo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fonts\/dakota\/specimen_files\/easytabs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/dakota\/specimen_files\/easytabs.js",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/dakota\/specimen_files\/min\/easytabs-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fonts\/dakota\/specimen_files\/grid_12-825-55-15.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/dakota\/specimen_files\/grid_12-825-55-15.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fonts\/dakota\/specimen_files\/specimen_stylesheet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/dakota\/specimen_files\/specimen_stylesheet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fonts\/dakota\/stylesheet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/dakota\/stylesheet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-bold\/FrutigerLTStd65Bold-demo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-bold\/FrutigerLTStd65Bold-demo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-bold\/specimen files\/easytabs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-bold\/specimen files\/easytabs.js",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-bold\/specimen files\/min\/easytabs-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-bold\/specimen files\/frutigerltstd-bold-cleartype.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81702,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-bold\/specimen files\/frutigerltstd-bold-cleartype.png",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-bold\/specimen files\/frutigerltstd-bold-cleartype.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-bold\/specimen files\/grid_12-825-55-15.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-bold\/specimen files\/grid_12-825-55-15.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-bold\/specimen files\/specimen_stylesheet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-bold\/specimen files\/specimen_stylesheet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-bold\/stylesheet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-bold\/stylesheet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-condensed\/FrutigerLTStd57Condensed-demo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-condensed\/FrutigerLTStd57Condensed-demo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-condensed\/specimen_files\/easytabs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-condensed\/specimen_files\/easytabs.js",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-condensed\/specimen_files\/min\/easytabs-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-condensed\/specimen_files\/frutigerltstd-cn-cleartype.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83707,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-condensed\/specimen_files\/frutigerltstd-cn-cleartype.png",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-condensed\/specimen_files\/frutigerltstd-cn-cleartype.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-condensed\/specimen_files\/grid_12-825-55-15.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-condensed\/specimen_files\/grid_12-825-55-15.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-condensed\/specimen_files\/specimen_stylesheet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-condensed\/specimen_files\/specimen_stylesheet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-condensed\/stylesheet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-condensed\/stylesheet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-light-condensed\/FrutigerLTStd47LightCondensed-demo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-light-condensed\/FrutigerLTStd47LightCondensed-demo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-light-condensed\/specimen_files\/easytabs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-light-condensed\/specimen_files\/easytabs.js",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-light-condensed\/specimen_files\/min\/easytabs-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-light-condensed\/specimen_files\/frutigerltstd-cn-cleartype.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83707,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-light-condensed\/specimen_files\/frutigerltstd-cn-cleartype.png",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-light-condensed\/specimen_files\/frutigerltstd-cn-cleartype.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-light-condensed\/specimen_files\/grid_12-825-55-15.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-light-condensed\/specimen_files\/grid_12-825-55-15.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-light-condensed\/specimen_files\/specimen_stylesheet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-light-condensed\/specimen_files\/specimen_stylesheet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-light-condensed\/stylesheet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-light-condensed\/stylesheet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-roman\/FrutigerLTStd55Roman-demo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-roman\/FrutigerLTStd55Roman-demo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-roman\/specimen_files\/easytabs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-roman\/specimen_files\/easytabs.js",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-roman\/specimen_files\/min\/easytabs-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-roman\/specimen_files\/frutigerltstd-roman-cleartype.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80873,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-roman\/specimen_files\/frutigerltstd-roman-cleartype.png",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-roman\/specimen_files\/frutigerltstd-roman-cleartype.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-roman\/specimen_files\/grid_12-825-55-15.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-roman\/specimen_files\/grid_12-825-55-15.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-roman\/specimen_files\/specimen_stylesheet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-roman\/specimen_files\/specimen_stylesheet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-roman\/stylesheet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/fonts\/frutiger-roman\/stylesheet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/images\/brandmark.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5432,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/images\/brandmark.png",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/images\/brandmark.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/images\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5363,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/images\/logo.png",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/images\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/style\/slides.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/style\/slides.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slides\/video\/poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17094,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/video\/poster.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/slides\/video\/poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/slideshow-builder\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slideshow-builder\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/slideshow-builder\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slideshow-builder\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slideshow-builder\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/slideshow-builder\/slideshow-builder.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/slideshow-builder\/slideshow-builder.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/sortable\/description.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/sortable\/description.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/sortable\/description.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/sortable\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/sortable\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/sortable\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/sortable\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/sortable\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/sortable\/sortable.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/sortable\/sortable.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/stacks\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/stacks\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/stacks\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/stacks\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/stacks\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/stacks\/stacks.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/stacks\/stacks.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/subform\/description.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/subform\/description.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/subform\/description.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/subform\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/subform\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/subform\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/subform\/form-response.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/subform\/form-response.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/subform\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/subform\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/subform\/pattern-test-response.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/subform\/pattern-test-response.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/subform\/subform-other-response.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/subform\/subform-other-response.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/subform\/subform-response.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/subform\/subform-response.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/subform\/subform.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/subform\/subform.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/switch\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/switch\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/switch\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/switch\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/switch\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/switch\/switch.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/switch\/switch.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/toggle\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/toggle\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/toggle\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/toggle\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/toggle\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/toggle\/toggle.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/toggle\/toggle.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/tooltip\/description.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/tooltip\/description.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/tooltip\/description.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/tooltip\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/tooltip\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/tooltip\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/tooltip\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/tooltip\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/tooltip\/pattern-test-response.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/tooltip\/pattern-test-response.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/tooltip\/tooltip.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/tooltip\/tooltip.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/validate\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/validate\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/validate\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/validate\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/validate\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/validate\/validate.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/validate\/validate.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/zoom\/description.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/zoom\/description.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/zoom\/description.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/zoom\/documentation.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/zoom\/documentation.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/zoom\/documentation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/zoom\/images\/slide.002.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 132525,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/zoom\/images\/slide.002.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/zoom\/images\/slide.002.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/zoom\/images\/slide.003.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 114013,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/zoom\/images\/slide.003.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/zoom\/images\/slide.003.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/zoom\/images\/slide.018.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73278,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/zoom\/images\/slide.018.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/zoom\/images\/slide.018.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/zoom\/images\/slide.019.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 104172,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/zoom\/images\/slide.019.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/zoom\/images\/slide.019.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/zoom\/images\/slide.032.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 87798,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/zoom\/images\/slide.032.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/demo\/zoom\/images\/slide.032.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/demo\/zoom\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/zoom\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/demo\/zoom\/zoom.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/demo\/zoom\/zoom.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/documentation.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/documentation.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/download.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/download.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/markup-styleguide\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/markup-styleguide\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/media\/colour-scheme.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/colour-scheme.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/media\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33713,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/favicon.png",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/hero-image.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30622,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/hero-image.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/hero-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/icon-download.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23667,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/icon-download.png",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/icon-download.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/icon-github.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26561,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/icon-github.png",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/icon-github.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.001.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33175,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.001.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.001.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.002.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 179387,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.002.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.002.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.003.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 154014,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.003.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.003.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.004.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 94034,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.004.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.004.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.005.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 79592,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.005.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.005.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.006.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 143579,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.006.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.006.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.007.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 125716,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.007.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.007.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.008.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 121701,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.008.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.008.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.009.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72969,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.009.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.009.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.010.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32256,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.010.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.010.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.011.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 268708,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.011.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.011.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.012.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51128,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.012.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.012.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.013.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91983,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.013.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.013.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.014.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47512,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.014.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.014.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.015.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76986,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.015.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.015.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.016.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76644,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.016.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.016.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.017.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89281,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.017.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.017.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.018.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 138196,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.018.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.018.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.019.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 188885,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.019.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.019.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.020.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 99209,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.020.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.020.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.021.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64192,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.021.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.021.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.022.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61277,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.022.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.022.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.023.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66536,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.023.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.023.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.024.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105396,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.024.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.024.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.025.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46124,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.025.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.025.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.026.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47756,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.026.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.026.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.027.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68076,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.027.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.027.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.028.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68235,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.028.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.028.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.029.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65238,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.029.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.029.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.030.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65705,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.030.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.030.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.031.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 155029,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.031.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.031.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.032.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 149713,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.032.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.032.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.033.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37157,
+		"inputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.033.jpg",
+		"outputAbbreviatedPath": "\/prototype\/_site\/media\/preso-plone-conference-2012\/slide.033.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/prototype\/_site\/parser-api\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/parser-api\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/README.md",
+		"outputAbbreviatedPath": "\/prototype\/_site\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/sass\/base.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/sass\/base.scss",
+		"outputAbbreviatedPath": "\/prototype\/_site\/css\/base.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/prototype\/_site\/store-api\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/store-api\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/style\/base.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/style\/base.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/style\/fontello\/css\/animation.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/style\/fontello\/css\/animation.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/style\/fontello\/css\/fontello-codes.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/style\/fontello\/css\/fontello-codes.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/style\/fontello\/css\/fontello-embedded.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/style\/fontello\/css\/fontello-embedded.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/style\/fontello\/css\/fontello-ie7-codes.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/style\/fontello\/css\/fontello-ie7-codes.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/style\/fontello\/css\/fontello-ie7.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/style\/fontello\/css\/fontello-ie7.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/style\/fontello\/css\/fontello.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/style\/fontello\/css\/fontello.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/_site\/style\/fontello\/demo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/_site\/style\/fontello\/demo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/bundles\/patterns.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/bundles\/patterns.js",
+		"outputAbbreviatedPath": "\/prototype\/bundles\/min\/patterns-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/prototype\/bundles\/patterns.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/bundles\/patterns.min.js",
+		"outputAbbreviatedPath": "\/prototype\/bundles\/min\/patterns.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/prototype\/changes.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/changes.md",
+		"outputAbbreviatedPath": "\/prototype\/changes.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/README.md",
+		"outputAbbreviatedPath": "\/prototype\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/prototype\/sass\/_settings.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/sass\/_settings.scss",
+		"outputAbbreviatedPath": "\/prototype\/css\/_settings.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/prototype\/sass\/base.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/sass\/base.scss",
+		"outputAbbreviatedPath": "\/prototype\/css\/base.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/prototype\/sass\/components\/_button-bar.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/sass\/components\/_button-bar.scss",
+		"outputAbbreviatedPath": "\/prototype\/sass\/css\/_button-bar.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/prototype\/sass\/components\/_button.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/sass\/components\/_button.scss",
+		"outputAbbreviatedPath": "\/prototype\/sass\/css\/_button.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/prototype\/sass\/components\/_checklist.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/sass\/components\/_checklist.scss",
+		"outputAbbreviatedPath": "\/prototype\/sass\/css\/_checklist.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/prototype\/sass\/components\/_component-index.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/sass\/components\/_component-index.scss",
+		"outputAbbreviatedPath": "\/prototype\/sass\/css\/_component-index.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/prototype\/sass\/components\/_download-form.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/sass\/components\/_download-form.scss",
+		"outputAbbreviatedPath": "\/prototype\/sass\/css\/_download-form.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/prototype\/sass\/components\/_grid.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/sass\/components\/_grid.scss",
+		"outputAbbreviatedPath": "\/prototype\/sass\/css\/_grid.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/prototype\/sass\/components\/_injection.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/sass\/components\/_injection.scss",
+		"outputAbbreviatedPath": "\/prototype\/sass\/css\/_injection.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/prototype\/sass\/components\/_nav-tile.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/sass\/components\/_nav-tile.scss",
+		"outputAbbreviatedPath": "\/prototype\/sass\/css\/_nav-tile.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/prototype\/sass\/components\/_pattern-tile.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/sass\/components\/_pattern-tile.scss",
+		"outputAbbreviatedPath": "\/prototype\/sass\/css\/_pattern-tile.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/prototype\/sass\/components\/_site-header.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/sass\/components\/_site-header.scss",
+		"outputAbbreviatedPath": "\/prototype\/sass\/css\/_site-header.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/prototype\/sass\/components\/_sub-nav.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/sass\/components\/_sub-nav.scss",
+		"outputAbbreviatedPath": "\/prototype\/sass\/css\/_sub-nav.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/prototype\/sass\/libraries\/_animation.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/sass\/libraries\/_animation.scss",
+		"outputAbbreviatedPath": "\/prototype\/sass\/css\/_animation.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/prototype\/sass\/libraries\/_mixins.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/sass\/libraries\/_mixins.scss",
+		"outputAbbreviatedPath": "\/prototype\/sass\/css\/_mixins.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/prototype\/sass\/libraries\/_reset.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/sass\/libraries\/_reset.scss",
+		"outputAbbreviatedPath": "\/prototype\/sass\/css\/_reset.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/prototype\/sass\/libraries\/_web-fonts.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/sass\/libraries\/_web-fonts.scss",
+		"outputAbbreviatedPath": "\/prototype\/sass\/css\/_web-fonts.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/prototype\/sass\/meta\/_elements.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/sass\/meta\/_elements.scss",
+		"outputAbbreviatedPath": "\/prototype\/sass\/css\/_elements.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/prototype\/sass\/meta\/_layout.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/sass\/meta\/_layout.scss",
+		"outputAbbreviatedPath": "\/prototype\/sass\/css\/_layout.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/prototype\/sass\/meta\/_typography.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/prototype\/sass\/meta\/_typography.scss",
+		"outputAbbreviatedPath": "\/prototype\/sass\/css\/_typography.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/src\/patterns.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/patterns.js",
+		"outputAbbreviatedPath": "\/src\/min\/patterns-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		}
+	},
+"hooks": [
+	],
+"lastSavedByUser": "Cornelis G. A. Kolbach",
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"bowerAbbreviatedPath": "",
+	"displayValue": "plone-intranet",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "brackets_darkGray"
+	},
+"projectSettings": {
+	"alwaysUseExternalServer": 0,
+	"animateCSSInjections": 1,
+	"autoApplyPSLanguageSettingsStyle": 0,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, ff 17, opera 12.1",
+	"autoSyncProjectSettingsFile": 1,
+	"browserRefreshDelay": 0,
+	"coffeeAutoOutputPathRelativePath": "",
+	"coffeeAutoOutputPathReplace1": "",
+	"coffeeAutoOutputPathReplace2": "",
+	"coffeeAutoOutputPathStyle": 0,
+	"coffeeCreateSourceMap": 0,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"coffeeMinifyOutput": 1,
+	"coffeeOutputStyle": 0,
+	"coffeeSyntaxCheckerStyle": 1,
+	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerPreviewPathAddition": "",
+	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
+	"hamlAutoOutputPathRelativePath": "",
+	"hamlAutoOutputPathReplace1": "",
+	"hamlAutoOutputPathReplace2": "",
+	"hamlAutoOutputPathStyle": 0,
+	"hamlEscapeHTMLCharacters": 0,
+	"hamlNoEscapeInAttributes": 0,
+	"hamlOutputFormat": 2,
+	"hamlOutputStyle": 0,
+	"hamlUseCDATA": 0,
+	"hamlUseDoubleQuotes": 0,
+	"hamlUseUnixNewlines": 0,
+	"jadeAutoOutputPathRelativePath": "",
+	"jadeAutoOutputPathReplace1": "",
+	"jadeAutoOutputPathReplace2": "",
+	"jadeAutoOutputPathStyle": 0,
+	"jadeCompileDebug": 1,
+	"jadeOutputStyle": 0,
+	"javascriptAutoOutputPathRelativePath": "\/min",
+	"javascriptAutoOutputPathReplace1": "",
+	"javascriptAutoOutputPathReplace2": "",
+	"javascriptAutoOutputPathStyle": 2,
+	"javascriptCreateSourceMap": 1,
+	"javascriptOutputStyle": 1,
+	"javascriptOutputSuffix": "-ck",
+	"javascriptSyntaxCheckerStyle": 1,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"ass": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"closure": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"continue": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eqeq": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"newcap": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nomen": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sloppy": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"stupid": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"todo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unparam": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"kitAutoOutputPathRelativePath": "",
+	"kitAutoOutputPathReplace1": "",
+	"kitAutoOutputPathReplace2": "",
+	"kitAutoOutputPathStyle": 0,
+	"lessAllowInsecureImports": 0,
+	"lessAutoOutputPathRelativePath": "..\/css",
+	"lessAutoOutputPathReplace1": "less",
+	"lessAutoOutputPathReplace2": "css",
+	"lessAutoOutputPathStyle": 2,
+	"lessCreateSourceMap": 0,
+	"lessDisableJavascript": 0,
+	"lessIeCompatibility": 1,
+	"lessOutputStyle": 0,
+	"lessRelativeURLS": 0,
+	"lessStrictImports": 0,
+	"lessStrictMath": 0,
+	"lessStrictUnits": 0,
+	"markdownAutoOutputPathRelativePath": "",
+	"markdownAutoOutputPathReplace1": "",
+	"markdownAutoOutputPathReplace2": "",
+	"markdownAutoOutputPathStyle": 0,
+	"markdownEnableFootnotes": 0,
+	"markdownEnableSmartyPants": 1,
+	"markdownExpandTabs": 1,
+	"reloadFileURLs": 0,
+	"sassAutoOutputPathRelativePath": "..\/css",
+	"sassAutoOutputPathReplace1": "sass",
+	"sassAutoOutputPathReplace2": "css",
+	"sassAutoOutputPathStyle": 2,
+	"sassCreateSourceMap": 0,
+	"sassDebugStyle": 0,
+	"sassDecimalPrecision": 5,
+	"sassOutputStyle": 0,
+	"sassUseLibsass": 0,
+	"shouldRunAutoprefixer": 0,
+	"shouldRunBless": 0,
+	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs",
+	"slimAutoOutputPathRelativePath": "",
+	"slimAutoOutputPathReplace1": "",
+	"slimAutoOutputPathReplace2": "",
+	"slimAutoOutputPathStyle": 0,
+	"slimCompileOnly": 0,
+	"slimLogicless": 0,
+	"slimOutputStyle": 1,
+	"slimRailsCompatible": 0,
+	"stylusAutoOutputPathRelativePath": "..\/css",
+	"stylusAutoOutputPathReplace1": "stylus",
+	"stylusAutoOutputPathReplace2": "css",
+	"stylusAutoOutputPathStyle": 2,
+	"stylusDebugStyle": 0,
+	"stylusImportCSS": 0,
+	"stylusOutputStyle": 0,
+	"stylusResolveRelativeURLS": 0,
+	"typescriptAutoOutputPathRelativePath": "\/js",
+	"typescriptAutoOutputPathReplace1": "",
+	"typescriptAutoOutputPathReplace2": "",
+	"typescriptAutoOutputPathStyle": 2,
+	"typescriptCreateDeclarationFile": 0,
+	"typescriptCreateSourceMap": 0,
+	"typescriptMinifyOutput": 0,
+	"typescriptModuleType": 0,
+	"typescriptNoImplicitAny": 0,
+	"typescriptNoResolve": 0,
+	"typescriptRemoveComments": 0,
+	"typescriptTargetECMAVersion": 0,
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "2"
+}
