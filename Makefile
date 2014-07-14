@@ -60,13 +60,15 @@ check:: stamp-npm
 ########################################################################
 ## Bundle generation
 
+# deprecated, can be done by jekyll now
 css: 
 	node_modules/.bin/grunt css
 
 
-bundle bundle.js: patterns $(GENERATED) $(SOURCES) jekyll css build.js stamp-bower
+bundle bundle.js: patterns $(GENERATED) $(SOURCES) jekyll build.js stamp-bower
 	node_modules/.bin/r.js -o build.js optimize=none
 	node_modules/.bin/grunt uglify
+	mkdir -p prototype/bundles
 	mv bundle.js prototype/bundles/$(BUNDLENAME)-$(RELEASE).js
 	ln -sf $(BUNDLENAME)-$(RELEASE).js prototype/bundles/$(BUNDLENAME).js
 	mkdir -p prototype/_site/bundles
