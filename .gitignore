@@ -3,7 +3,7 @@
 node_modules
 npm-debug.log
 release
-Prototype/bundles
+prototype/bundles
 Gemfile.lock
 bundle.js
 stamp-bower

@@ -14,7 +14,7 @@ be ticketized into issues once they're actionable.
 Package layout
 --------------
 
-./Prototype/
+./prototype/
   static high-fidelity mockup design workspace
   Contains _site/ with the compiled prototype
   Contains the jekyll templates, style files, media files et al.
@@ -36,26 +36,53 @@ Prerequisites:
 
 - node.js >0.10 install from nodejs.org
 
-- jekyll > 1.5 install from http://jekyllrb.com
+You can check node is present via::
 
+  nodejs -v
+
+- jekyll > 1.5 install following the instructions on
+  https://help.github.com/articles/using-jekyll-with-pages
+
+On ubuntu::
+
+  sudo apt-get install ruby1.9.3
+  sudo gem install bundler
+
+Now install jekyll itself.
+The Gemfile is in ploneintranet.theme/prototype and is already up to date::
+
+  git clone git@github.com:ploneintranet/ploneintranet.theme.git
+  cd ploneintranet.theme/prototype
+  sudo bundle install
+  
 We use `node`, `npm` and `bower` to manage the Javascript
 dependencies of Webwork and build the bundles. You have the option to
 handle this manually or let the all-round-carefree make handle
-things for you.
+things for you::
 
-```
-git clone git@github.com:ploneintranet/ploneintranet.theme.git
-cd ploneintranet.theme
-make
-```
+  cd ..  # toplevel ploneintranet.theme
+  make
 
-The bundles (minified and non-minified) are in `Prototype/bundles`.
 
-In order to make a release tarball, use:
+Running the development web server
+----------------------------------
 
-```
-make release
-```
+Start the jekyll server::
+
+
+  bundle exec jekyll serve --watch --baseurl ""
+
+You can now edit.
+
+The bundles (minified and non-minified) are in `prototype/bundles`.
+
+
+Releasing a new version
+-----------------------
+
+In order to make a release tarball, use::
+
+  make release
 
 The tarball will be found in `release/`.
 
@@ -91,5 +118,6 @@ to indicate to make that these steps don't have to run again. That also means
 if you explicitly want to re-run the bower or npm step, you can just remove Theme
 stamp-bower or stamp-npm file and run make again.
 
+Q: On Ubuntu, I get weird "sh: 1: node: not found" errors.
 
-
+A: sudo ln -s /usr/bin/nodejs /usr/bin/node
