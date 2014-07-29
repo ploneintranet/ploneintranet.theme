@@ -121,6 +121,10 @@
         "packery": "bower_components/packery/js/packery",
         "pat-packery": "bower_components/pat-packery/src/pat-packery",
 
+        "pikaday": "bower_components/pikaday/pikaday",
+        "pikaday.jquery": "bower_components/pikaday/plugins/pikaday.jquery",
+        "pat-polyfill-date": "bower_components/patterns.polyfill-date/polyfill-date",
+
     },
 
     "shim": {
