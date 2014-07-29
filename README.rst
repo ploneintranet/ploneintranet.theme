@@ -63,18 +63,45 @@ things for you::
   cd ..  # toplevel ploneintranet.theme
   make
 
+The bundles (minified and non-minified) are in `prototype/bundles` .
 
-Running the development web server
-----------------------------------
+
+Development
+-----------
 
 Start the jekyll server::
 
-
+  cd prototype
   bundle exec jekyll serve --watch --baseurl ""
 
-You can now edit.
+You can now see the current prototype (on `localhost:4000`) and edit.
 
-The bundles (minified and non-minified) are in `prototype/bundles`.
+Typical development workflow:
+
+* Wireframe the interactions you want to realize
+* Plan a new component as a pseudocode dom tree using pattern classes, e.g.::
+
+    form.update-social.pat-inject
+        textarea.pat-comment-box
+            a.icon-attachment.iconified
+        div.button-bar
+            a.icon-add-user.iconified.pat-tooltip
+                sup.counter
+            a.icon-hashtag.iconified
+            a.icon-users.iconified
+            button[type="submit"]
+
+* Create a new include file eg `_inludes/update-social.html`
+* Create a new standalone html eg in `demo/update-social.html` that includes that include. This page should show up in the "Prototype map" on the prototype homepage
+* In the include file, expand the pseudocode dom into actual html markup.
+* Load the standalone demo via the Jekyll server, edit, reload, rinse, repeat.
+* Finally, include the new component in more complex pages like e.g. `prototype/workspace_landing.html`
+
+Jekyll requires a front-matter in the top of standalone html files, minimally::
+
+  ---
+  ---
+
 
 
 Releasing a new version
