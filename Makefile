@@ -89,7 +89,7 @@ check-clean:
 	test -z "$(shell git status --porcelain)" || (git status && echo && echo "Workdir not clean." && false) && echo "Workdir clean."
 
 jsrelease: bundle.js
-	# This one is used by make release and can be used separately to do a
+	# This one is used by developers only and can be used separately to do a
 	# version for Designers only
 	mkdir -p release
 	cp prototype/bundles/$(BUNDLENAME)-$(RELEASE).js release
@@ -125,7 +125,12 @@ dev: jekyll autoprefixer
 	ln -s src/patterns.js prototype/_site/main.js
 
 release: jekyll autoprefixer bundle.js
-	# I assume that all html in _site and js in _site/bundles is built and ready for upload
+	# I assume that all html in _site and js in _site/bundles is built and 
+	# ready for upload.
+	# CAVE: This is currently work in progress and was used to deploy to deliverance
+	# We will most probably rewrite this to deploy all necessary resources
+	# for diazo into egg format (Yet to be decided how)
+	#
 	mkdir -p release/prototype
 	# make sure it is empty
 	rm -rf release/prototype/*
