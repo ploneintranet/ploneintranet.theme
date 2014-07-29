@@ -89,8 +89,12 @@ check-clean:
 	test -z "$(shell git status --porcelain)" || (git status && echo && echo "Workdir not clean." && false) && echo "Workdir clean."
 
 jsrelease: bundle.js
+<<<<<<< HEAD
 	# This one is used by developers only and can be used separately to do a
 	# version for Designers only
+=======
+	# This one is used to do a version for Designers only
+>>>>>>> document javascript integration build chain
 	mkdir -p release
 	cp prototype/bundles/$(BUNDLENAME)-$(RELEASE).js release
 	tar cfz release/$(BUNDLENAME)-$(RELEASE).js.tar.gz -C release $(BUNDLENAME)-$(RELEASE).js
@@ -125,6 +129,7 @@ dev: jekyll autoprefixer
 	ln -s src/patterns.js prototype/_site/main.js
 
 release: jekyll autoprefixer bundle.js
+	# Bundle all html, css and js into a deployable package.
 	# I assume that all html in _site and js in _site/bundles is built and 
 	# ready for upload.
 	# CAVE: This is currently work in progress and was used to deploy to deliverance

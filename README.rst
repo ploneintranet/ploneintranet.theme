@@ -105,6 +105,22 @@ Jekyll requires a front-matter in the top of standalone html files, minimally::
   ---
   ---
 
+To develop a new pattern, see the documentation at
+http://patternslib.com/index.html#documentation
+
+Example of a standalone pattern:
+https://github.com/syslabcom/patterns.polyfill-date
+
+To integrate a new pattern into the prototype:
+
+* Add the package into `bower.json` - this will enable the source download.
+* Add the download location to `build.js` e.g. under 'Pat Packery'. The download location is specified in `.bowerrc`.
+* Add all pattern dependencies into `build.js` as well. The dependencies are already specified
+in the pattern itself, e.g. see https://github.com/syslabcom/patterns.polyfill-date/blob/master/polyfill-date.js .
+* Add the pattern name to `patterns.js` to satisfy requirejs.
+* Running: `make clean all` will run the download and compile the pattern into the bundle.
+
+You can check the pattern is now added to the bundle: `grep polyfill-data prototype/bundles/*`
 
 
 Releasing a new version
