@@ -69,8 +69,8 @@ TODO http://bourbon.io/
 
 
 
-Development
------------
+Component Development
+---------------------
 
 Start the jekyll server::
 
@@ -105,11 +105,30 @@ Jekyll requires a front-matter in the top of standalone html files, minimally::
   ---
   ---
 
-To develop a new pattern, see the documentation at
-http://patternslib.com/index.html#documentation
+
+Pattern Development and Integration
+-----------------------------------
+
+Patternslib home:
+http://patternslib.com/index.html
+
+To develop a new pattern, see the documentation at:
+https://github.com/Patternslib/Patterns/tree/master/docs
 
 Example of a standalone pattern:
-https://github.com/syslabcom/patterns.polyfill-date
+https://github.com/syslabcom/patterns.polyfill-date/blob/master/polyfill-date.js
+
+More complex pattern initialization:
+https://github.com/Patternslib/pat-redactor/blob/master/src/pat-redactor.js
+specifically the `parser.add_argument(...)` calls that define pattern options.
+
+You would e.g. add browserviews for the imageupload and imagegetjson calls::
+
+  <textarea class="pat-redactor"
+  id="rich-document-edit-text" name="text"
+  data-allow="p-ul-ol-h1-h2-h3"
+  data-pat-redactor="toolbar-external: #editor-toolbar; imageupload: https://your.site/foo/@@quickupload; imagegetjson: https://your.site/foo/@@list_images"
+  dir="ltr" style="display:none">...</textarea>
 
 To integrate a new pattern into the prototype:
 
@@ -121,6 +140,9 @@ in the pattern itself, e.g. see https://github.com/syslabcom/patterns.polyfill-d
 * Running: `make clean all` will run the download and compile the pattern into the bundle.
 
 You can check the pattern is now added to the bundle: `grep polyfill-data prototype/bundles/*`
+
+Please make sure your pattern has test coverage, see:
+https://github.com/Patternslib/Patterns/blob/master/docs/styleguide.md
 
 
 Releasing a new version
