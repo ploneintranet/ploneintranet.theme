@@ -89,7 +89,8 @@ check-clean:
 	test -z "$(shell git status --porcelain)" || (git status && echo && echo "Workdir not clean." && false) && echo "Workdir clean."
 
 jsrelease: bundle.js
-	# This one is used to do a version for Designers only
+	# This one is used by developers only and can be used separately to do a
+	# version for Designers only
 	mkdir -p release
 	cp prototype/bundles/$(BUNDLENAME)-$(RELEASE).js release
 	tar cfz release/$(BUNDLENAME)-$(RELEASE).js.tar.gz -C release $(BUNDLENAME)-$(RELEASE).js
