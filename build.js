@@ -57,7 +57,7 @@
         "pat-autofocus": "Patterns/src/pat/autofocus",
         "pat-autoscale": "Patterns/src/pat/autoscale",
         "pat-autosubmit": "Patterns/src/pat/autosubmit",
-        "pat-autosuggest": "pat/autosuggest",
+        "pat-autosuggest": "Patterns/src/pat/autosuggest",
         "pat-breadcrumbs": "Patterns/src/pat/breadcrumbs",
         "pat-bumper": "Patterns/src/pat/bumper",
         "pat-carousel": "Patterns/src/pat/carousel",
