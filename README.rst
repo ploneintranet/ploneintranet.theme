@@ -54,6 +54,8 @@ The Gemfile is in ploneintranet.theme/prototype and is already up to date::
   git clone git@github.com:ploneintranet/ploneintranet.theme.git
   cd ploneintranet.theme/prototype
   sudo bundle install
+
+Bourbon http://bourbon.io/ will be installed as part `bundle install`.
   
 We use `node`, `npm` and `bower` to manage the Javascript
 dependencies of Webwork and build the bundles. You have the option to
@@ -65,7 +67,6 @@ things for you::
 
 The bundles (minified and non-minified) are in `prototype/bundles` .
 
-TODO http://bourbon.io/
 
 
 
