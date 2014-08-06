@@ -142,14 +142,6 @@ release: jekyll bundle.js
 	cp prototype/bundles/$(BUNDLENAME)-$(RELEASE).min.js $(RELEASE_DIR)/_site/bundles/
 	ln -sf $(BUNDLENAME)-$(RELEASE).js $(RELEASE_DIR)/_site/bundles/$(BUNDLENAME).js
 	ln -sf $(BUNDLENAME)-$(RELEASE).min.js $(RELEASE_DIR)/_site/bundles/$(BUNDLENAME).min.js
-	# tar cfz $(RELEASE_TARBALL) -C release prototype
-#   Here we usually copy the complete bundle containing all style, html and js files to the deployment server.
-#   This has to be adapted later to create a diazo usable package and put it in place
-#	@echo "Copy prototype archive to gocept servers"
-#	ln -sf prototype-$(RELEASE).tar.gz release/LATEST
-#	scp $(RELEASE_TARBALL) release/LATEST webworkstag00.gocept.net:/srv/www/localhost/htdocs/install-archives/deliverance/
-#	rm -rf release/prototype $(RELEASE_TARBALL) release/LATEST
-#	echo "Please pin the following release id: $(RELEASE)"
 	# copy to the diazo theme dir
 	cp -R prototype/_site $(DIAZO_DIR)/prototype
 
