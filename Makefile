@@ -151,7 +151,7 @@ release: jekyll bundle.js
 #	rm -rf release/prototype $(RELEASE_TARBALL) release/LATEST
 #	echo "Please pin the following release id: $(RELEASE)"
 	# copy to the diazo theme dir
-	cp -R prototype/_site/* $(DIAZO_DIR)/
+	cp -R prototype/_site $(DIAZO_DIR)/prototype
 
 clean::
 	rm -f bundle.js
