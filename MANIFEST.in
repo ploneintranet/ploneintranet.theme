@@ -1,0 +1,7 @@
+exclude *
+prune prototype
+include README.rst setup.py
+exclude src/patterns.js
+recursive-include src/ploneintranet/theme/theme/prototype *
+recursive-include docs *
+global-exclude *pyc .*.swp .*.swo

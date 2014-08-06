@@ -19,6 +19,8 @@ RELEASE         = $(shell git describe --tags)
 RELEASE_DIR		= release/prototype
 RELEASE_TARBALL = release/prototype-$(RELEASE).tar.gz
 
+DIAZO_DIR   = src/ploneintranet/theme/theme
+
 LATEST          = $(shell cat LATEST)
 BUNDLENAME      = ploneintranet
 BUNDLEURL		= http://products.syslab.com/packages/$(BUNDLENAME)/$(LATEST)/$(BUNDLENAME)-$(LATEST).tar.gz
@@ -59,11 +61,6 @@ check:: stamp-npm
 
 ########################################################################
 ## Bundle generation
-
-# deprecated, can be done by jekyll now
-css: 
-	node_modules/.bin/grunt css
-
 
 bundle bundle.js: patterns $(GENERATED) $(SOURCES) jekyll build.js stamp-bower
 	node_modules/.bin/r.js -o build.js optimize=none
@@ -111,20 +108,20 @@ designerhappy:
 	echo "The latest js bundle has been downloaded to prototype/bundles. You might want to run jekyll. Designer, you can be happy now."
 
 
-autoprefixer:
-	node_modules/.bin/grunt css
+gems:
+	cd prototype; bundle install
 
-jekyll:
+jekyll: gems
 	cd prototype; bundle exec jekyll build
 
-dev: jekyll autoprefixer
+dev: jekyll
 	# Set up development environment
 	# install a require.js config
 	cp src/bower_components/requirejs/require.js prototype/_site/bundles/$(BUNDLENAME)-modular.js
 	ln -s ../../../src prototype/_site/bundles
 	ln -s src/patterns.js prototype/_site/main.js
 
-release: jekyll autoprefixer bundle.js
+release: jekyll bundle.js
 	# Bundle all html, css and js into a deployable package.
 	# I assume that all html in _site and js in _site/bundles is built and 
 	# ready for upload.
@@ -135,7 +132,7 @@ release: jekyll autoprefixer bundle.js
 	mkdir -p release/prototype
 	# make sure it is empty
 	rm -rf release/prototype/*
-	test "$$(git status --porcelain)x" = "x" || (git status && false)
+	# test "$$(git status --porcelain)x" = "x" || (git status && false)
 	cp -R prototype/_site $(RELEASE_DIR)/
 	sed -i -e "s,<script src=\"bundles/$(BUNDLENAME).js\",<script src=\"bundles/$(shell readlink prototype/bundles/$(BUNDLENAME).js)\"," $(RELEASE_DIR)/_site/*.html
 	# Cleaning up non mission critical elements
@@ -145,14 +142,8 @@ release: jekyll autoprefixer bundle.js
 	cp prototype/bundles/$(BUNDLENAME)-$(RELEASE).min.js $(RELEASE_DIR)/_site/bundles/
 	ln -sf $(BUNDLENAME)-$(RELEASE).js $(RELEASE_DIR)/_site/bundles/$(BUNDLENAME).js
 	ln -sf $(BUNDLENAME)-$(RELEASE).min.js $(RELEASE_DIR)/_site/bundles/$(BUNDLENAME).min.js
-	tar cfz $(RELEASE_TARBALL) -C release prototype
-#   Here we usually copy the complete bundle containing all style, html and js files to the deployment server.
-#   This has to be adapted later to create a diazo usable package and put it in place
-#	@echo "Copy prototype archive to gocept servers"
-#	ln -sf prototype-$(RELEASE).tar.gz release/LATEST
-#	scp $(RELEASE_TARBALL) release/LATEST webworkstag00.gocept.net:/srv/www/localhost/htdocs/install-archives/deliverance/
-#	rm -rf release/prototype $(RELEASE_TARBALL) release/LATEST
-	echo "Please pin the following release id: $(RELEASE)"
+	# copy to the diazo theme dir
+	cp -R prototype/_site $(DIAZO_DIR)/prototype
 
 clean::
 	rm -f bundle.js
