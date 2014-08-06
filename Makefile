@@ -60,11 +60,6 @@ check:: stamp-npm
 ########################################################################
 ## Bundle generation
 
-# deprecated, can be done by jekyll now
-css: 
-	node_modules/.bin/grunt css
-
-
 bundle bundle.js: patterns $(GENERATED) $(SOURCES) jekyll build.js stamp-bower
 	node_modules/.bin/r.js -o build.js optimize=none
 	node_modules/.bin/grunt uglify
@@ -111,20 +106,20 @@ designerhappy:
 	echo "The latest js bundle has been downloaded to prototype/bundles. You might want to run jekyll. Designer, you can be happy now."
 
 
-autoprefixer:
-	node_modules/.bin/grunt css
+gems:
+	cd prototype; bundle install
 
-jekyll:
+jekyll: gems
 	cd prototype; bundle exec jekyll build
 
-dev: jekyll autoprefixer
+dev: jekyll
 	# Set up development environment
 	# install a require.js config
 	cp src/bower_components/requirejs/require.js prototype/_site/bundles/$(BUNDLENAME)-modular.js
 	ln -s ../../../src prototype/_site/bundles
 	ln -s src/patterns.js prototype/_site/main.js
 
-release: jekyll autoprefixer bundle.js
+release: jekyll bundle.js
 	# Bundle all html, css and js into a deployable package.
 	# I assume that all html in _site and js in _site/bundles is built and 
 	# ready for upload.
