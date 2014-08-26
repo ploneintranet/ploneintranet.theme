@@ -29,8 +29,8 @@ Package layout
 
 
 
-Installation
-------------
+Standalone Installation
+-----------------------
 
 Prerequisites:
 
@@ -56,7 +56,7 @@ The Gemfile is in ploneintranet.theme/prototype and is already up to date::
   sudo bundle install
 
 Bourbon http://bourbon.io/ will be installed as part of `bundle install` .
-  
+
 We use `node`, `npm` and `bower` to manage the Javascript
 dependencies of Webwork and build the bundles. You have the option to
 handle this manually or let the all-round-carefree make handle
@@ -68,7 +68,17 @@ things for you::
 The bundles (minified and non-minified) are in `prototype/bundles` .
 
 
+Installation into Plone
+-----------------------
 
+* Checkout the egg into your Plone installation (with Diazo support)
+* Include ploneintranet.theme in your eggs section and run buildout
+* Now initialise the theme by changing into src/ploneintranet.theme and running 'make release'.
+  This will build all javascript dependencies and create the initial diazo theme structure
+* Start Plone
+* Install the ploneintranet.theme Add On
+
+The theme should now be activated. Be careful, this is currently heavy work in progress.
 
 Component Development
 ---------------------
@@ -164,7 +174,7 @@ The make process will attempt the following steps:
 * Download backend js libs using npm install for running this
 * Download frontend js libs for later bundling using bower
 * Clone or update the Patternslib master to link it into the custom bundle
-* Apply Prefixfree and uglify the css 
+* Apply Prefixfree and uglify the css
 * Create a js bundle of all referenced js patterns and used libs
 * Run jekyll to apply templates and create the prototype directory
 
@@ -172,21 +182,25 @@ The make process will attempt the following steps:
 If you run into problems
 ------------------------
 
-Q: There is some obscure error in some js dependency downloaded by bower. What 
+Q: There is some obscure error in some js dependency downloaded by bower. What
 should I do?
 
-A: There is a fair chance that there was a download error due to timeout or 
-delay in bower.io. The quick shot is to run again. Do make clean to be sure 
-that all local caches are also emptied and run make again. 
+A: There is a fair chance that there was a download error due to timeout or
+delay in bower.io. The quick shot is to run again. Do make clean to be sure
+that all local caches are also emptied and run make again.
 
 
 Q: What are the stamp* files for?
 
-A: Downloading all dependencies takes quite some time. We use these as flags 
-to indicate to make that these steps don't have to run again. That also means 
+A: Downloading all dependencies takes quite some time. We use these as flags
+to indicate to make that these steps don't have to run again. That also means
 if you explicitly want to re-run the bower or npm step, you can just remove Theme
 stamp-bower or stamp-npm file and run make again.
 
 Q: On Ubuntu, I get weird "sh: 1: node: not found" errors.
 
 A: sudo ln -s /usr/bin/nodejs /usr/bin/node
+
+Q: I get Errors in the log of type  IOError: Error reading file '/++theme++ploneintranet.theme/prototype/home.html': failed to load external entity "/++theme++ploneintranet.theme/prototype/home.html". What's wrong?
+
+A: Did you run 'make release' in the theme checkout as descibed above?
