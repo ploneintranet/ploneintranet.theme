@@ -3,7 +3,7 @@ JSHINT 		?= node_modules/.bin/jshint
 PEGJS		?= node_modules/.bin/pegjs
 PHANTOMJS	?= node_modules/.bin/phantomjs
 
-PATTERNS	= src/Patterns
+PATTERNS	= src/bower_components/patternslib
 SOURCES		= $(wildcard $(PATTERNS)/src/*.js) $(wildcard $(PATTERNS)/src/pat/*.js) $(wildcard $(PATTERNS)/src/lib/*.js)
 BUNDLES		= bundles/patterns.js bundles/patterns.min.js
 
@@ -39,8 +39,8 @@ stamp-bower: stamp-npm
 	$(BOWER) install
 	touch stamp-bower
 
-patterns:
-	if test -d src/Patterns; then cd src/Patterns && git pull && cd ../..; else git clone https://github.com/Patternslib/Patterns.git src/Patterns; fi
+#patterns:
+#	if test -d src/Patterns; then cd src/Patterns && git pull && cd ../..; else git clone https://github.com/Patternslib/Patterns.git src/Patterns; fi
 
 clean::
 	rm -f stamp-npm stamp-bower
@@ -62,7 +62,7 @@ check:: stamp-npm
 ########################################################################
 ## Bundle generation
 
-bundle bundle.js: patterns $(GENERATED) $(SOURCES) jekyll build.js stamp-bower
+bundle bundle.js: stamp-bower $(GENERATED) $(SOURCES) build.js jekyll
 	node_modules/.bin/r.js -o build.js optimize=none
 	node_modules/.bin/grunt uglify
 	mkdir -p prototype/bundles
