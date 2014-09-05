@@ -121,7 +121,7 @@ dev: jekyll
 	ln -s ../../../src prototype/_site/bundles
 	ln -s src/patterns.js prototype/_site/main.js
 
-release: jekyll bundle.js
+diazo release: jekyll bundle.js
 	# Bundle all html, css and js into a deployable package.
 	# I assume that all html in _site and js in _site/bundles is built and
 	# ready for upload.
