@@ -37,6 +37,7 @@ setup(
     install_requires=[
         'Plone',
         'plone.app.theming',
+        'z3c.jbot',
         'setuptools',
     ],
     extras_require={

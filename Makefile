@@ -39,7 +39,7 @@ stamp-bower: stamp-npm
 	$(BOWER) install
 	touch stamp-bower
 
-patterns: 
+patterns:
 	if test -d src/Patterns; then cd src/Patterns && git pull && cd ../..; else git clone https://github.com/Patternslib/Patterns.git src/Patterns; fi
 
 clean::
@@ -123,7 +123,7 @@ dev: jekyll
 
 release: jekyll bundle.js
 	# Bundle all html, css and js into a deployable package.
-	# I assume that all html in _site and js in _site/bundles is built and 
+	# I assume that all html in _site and js in _site/bundles is built and
 	# ready for upload.
 	# CAVE: This is currently work in progress and was used to deploy to deliverance
 	# We will most probably rewrite this to deploy all necessary resources
@@ -143,7 +143,7 @@ release: jekyll bundle.js
 	ln -sf $(BUNDLENAME)-$(RELEASE).js $(RELEASE_DIR)/_site/bundles/$(BUNDLENAME).js
 	ln -sf $(BUNDLENAME)-$(RELEASE).min.js $(RELEASE_DIR)/_site/bundles/$(BUNDLENAME).min.js
 	# copy to the diazo theme dir
-	cp -R prototype/_site $(DIAZO_DIR)/prototype
+	cp -R prototype/_site/* $(DIAZO_DIR)/
 
 clean::
 	rm -f bundle.js
