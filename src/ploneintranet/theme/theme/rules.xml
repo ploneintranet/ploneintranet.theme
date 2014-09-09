@@ -52,6 +52,14 @@
       <append css:content="#edit-bar" css:theme="#content"
               css:if-content="#edit-bar" />
 
+        <replace content="//*[@id='activity-stream']">
+            <div>
+              <xsl:copy-of select="@*" />
+                <xsl:attribute name="class">activity-stream pat-packery packery-ready</xsl:attribute>
+                <xsl:attribute name="data-pat-packery">column-width: 500; gutter-width: 30px; item-selector: .post</xsl:attribute>
+                <xsl:apply-templates />
+              </div>
+       </replace>
 
   <!-- /END/ IMPORTANT NOTE -->
 
