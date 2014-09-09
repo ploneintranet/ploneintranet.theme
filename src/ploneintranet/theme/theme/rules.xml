@@ -58,5 +58,9 @@
   <!-- Main content rule: Put plone content into theme content -->
   <append content="//div[@id='content']/*"
           theme="//div[@id='content']" />
+  <drop css:theme="#buddies-toggle"
+        css:if-not-content="#buddies-toggle" />
+  <replace css:content="#buddies-toggle"
+           css:theme="#buddies-toggle" />
 
 </rules>
