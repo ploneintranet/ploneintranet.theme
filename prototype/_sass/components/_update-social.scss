@@ -87,10 +87,10 @@
 
     .attachments {
       clear: both;
-      margin: 0;
+      margin: 0 !important;
 
       .attachment-previews {
-          margin: 0;
+          margin: 0 !important;
           clear: both;
           padding: 0 1em;
           font-style: italic;
@@ -154,4 +154,10 @@
 .application-workspace #new-post-box {
   margin-top: 2em;
   margin-bottom: 2em;
+}
+.plonesocial-navigation {
+  display:inline;
+}
+.plonesocial-navigation li {
+  display:inline  !important; //need this to overrides plone sunburst
 }

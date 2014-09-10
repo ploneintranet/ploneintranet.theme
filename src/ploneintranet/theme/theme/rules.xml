@@ -43,10 +43,19 @@
        the rules are likely to go away again -->
 
       <!-- Temporary navigation rule: Put plone Navigation into theme content -->
-      <append css:content="#portal-globalnav" css:theme="#content" />
+      <append css:content="#portal-globalnav" css:theme="#global-header" />
 
       <!-- plonesocial navigation -->
       <append css:content="#plonesocial-navigation" css:theme="#content" />
+
+      <!-- adaptation for the plonesocial navigation -->
+       <replace content="//*[@id='plonesocial-navigation']">
+              <ul>
+              <xsl:copy-of select="@*" />
+              <xsl:attribute name="class"><xsl:value-of select="./@class" />plonesocial-navigation</xsl:attribute>
+              <xsl:apply-templates />
+               </ul>
+       </replace>
 
       <!-- Edit Bar -->
       <append css:content="#edit-bar" css:theme="#content"
@@ -75,6 +84,18 @@
                 <xsl:apply-templates />
             </fieldset>
        </replace>
+
+       <!-- adaptation of the global-nav -->
+       <replace content="//*[@id='portal-globalnav']">
+            <nav class="tabs navigation" id="home-tabs">
+              <ul>
+              <xsl:copy-of select="@*" />
+              <xsl:attribute name="id"><xsl:value-of select="./@id" /> tabs</xsl:attribute>
+              <xsl:apply-templates />
+               </ul>
+            </nav>
+       </replace>
+
   <!-- /END/ IMPORTANT NOTE -->
 
   <!-- Main content rule: Put plone content into theme content -->
