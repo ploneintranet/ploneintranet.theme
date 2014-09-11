@@ -2,6 +2,11 @@
     position: relative;
     background-color: #fcfcfc;
 
+    &#new-post-box {
+        margin: 0 auto 3em;
+        width: 80%;
+    }
+
     textarea,
     .content-mirror {
         margin: 0;
@@ -146,7 +151,7 @@
     }
 }
 
-.application-workspace #post-box {
+.application-workspace #new-post-box {
   margin-top: 2em;
   margin-bottom: 2em;
 }
