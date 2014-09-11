@@ -16,6 +16,15 @@
             });
         });
     </script>
+    {% if include.direct == "true" %}
+        <label>
+            To:
+            <a class="iconified icon-user pat-tooltip"
+                data-pat-tooltip="position: tl; source: ajax; class: user;"
+                href="/feedback/panel-user.html#content"></a>
+            <span id="selected-user"><input value="{{ include.user }}" /></span>
+        </label>
+    {% endif %}
     <fieldset>
         <p class="content-mirror"
             ><span class="text"
@@ -63,7 +72,7 @@
                             </option>
                         </optgroup>
                     </select>
-                </label>  
+                </label>
             {% endunless %}
         </div>
     </fieldset>

@@ -49,6 +49,21 @@
                     {% endif %}
                 {% endfor %}
 
+            {% elsif include.mode == "user" %}
+                {% for user in site.posts %}
+                    {% if user.layout == 'user' %}
+                        <label class="item user">
+                            <input name="" type="radio" />
+                            <a class="follow">
+                                <img src="{{user.image_url}}" alt="" />
+                                <strong class="title">{{ user.title }}</strong>
+                                <br>
+                                <dfn class="byline">{{ user.user_role }}</dfn>
+                            </a>
+                        </label>
+                    {% endif %}
+                {% endfor %}
+
             {% elsif include.mode == "tags" %}
                 {% for tag in site.data.tags %}
                     {% if tag.suggestion == true %}
