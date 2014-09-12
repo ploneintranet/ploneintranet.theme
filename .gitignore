@@ -11,6 +11,7 @@ stamp-npm
 src/bower_components
 prototype/_site
 src/Patterns
+src/ploneintranet/theme/static/generated
 .sass-cache
 *.sw[op]
 *.egg-info

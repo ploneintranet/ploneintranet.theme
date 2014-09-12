@@ -19,7 +19,7 @@ RELEASE         = $(shell git describe --tags)
 RELEASE_DIR		= release/prototype
 RELEASE_TARBALL = release/prototype-$(RELEASE).tar.gz
 
-DIAZO_DIR   = src/ploneintranet/theme/theme
+DIAZO_DIR   = src/ploneintranet/theme/static
 
 LATEST          = $(shell cat LATEST)
 BUNDLENAME      = ploneintranet
@@ -142,8 +142,11 @@ diazo release: jekyll bundle.js
 	cp prototype/bundles/$(BUNDLENAME)-$(RELEASE).min.js $(RELEASE_DIR)/_site/bundles/
 	ln -sf $(BUNDLENAME)-$(RELEASE).js $(RELEASE_DIR)/_site/bundles/$(BUNDLENAME).js
 	ln -sf $(BUNDLENAME)-$(RELEASE).min.js $(RELEASE_DIR)/_site/bundles/$(BUNDLENAME).min.js
+	# replace absolute resource urls with relative
+	sed -i -e "s#http://patterns.cornae.com/#./#" $(RELEASE_DIR)/_site/*.html
 	# copy to the diazo theme dir
-	cp -R prototype/_site/* $(DIAZO_DIR)/
+	mkdir $(DIAZO_DIR)/generated/
+	cp -R $(RELEASE_DIR)/_site/* $(DIAZO_DIR)/generated/
 
 clean::
 	rm -f bundle.js
