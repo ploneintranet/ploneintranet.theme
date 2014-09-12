@@ -129,7 +129,7 @@ diazo release: jekyll bundle.js
 	# We will most probably rewrite this to deploy all necessary resources
 	# for diazo into egg format (Yet to be decided how)
 	#
-	mkdir -p release/prototype
+	@[ -d release/prototype ] || mkdir -p release/prototype
 	# make sure it is empty
 	rm -rf release/prototype/*
 	# test "$$(git status --porcelain)x" = "x" || (git status && false)
@@ -145,7 +145,7 @@ diazo release: jekyll bundle.js
 	# replace absolute resource urls with relative
 	sed -i -e "s#http://patterns.cornae.com/#./#" $(RELEASE_DIR)/_site/*.html
 	# copy to the diazo theme dir
-	mkdir $(DIAZO_DIR)/generated/
+	@[ -d $(DIAZO_DIR)/generated/ ] || mkdir $(DIAZO_DIR)/generated/
 	cp -R $(RELEASE_DIR)/_site/* $(DIAZO_DIR)/generated/
 
 clean::
