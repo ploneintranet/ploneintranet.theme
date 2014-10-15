@@ -45,8 +45,10 @@ You can check node is present via::
 
 On ubuntu::
 
-  sudo apt-get install ruby1.9.3
+  sudo apt-get install ruby ruby-dev
   sudo gem install bundler
+
+Make sure ruby>=1.9.3 (on precise: apt-get install ruby1.9.3).
 
 Now install jekyll itself.
 The Gemfile is in ploneintranet.theme/prototype and is already up to date::
@@ -71,14 +73,19 @@ The bundles (minified and non-minified) are in `prototype/bundles` .
 Installation into Plone
 -----------------------
 
-* Checkout the egg into your Plone installation (with Diazo support)
+`ploneintranet.theme` comes pre-bundled if you use the `ploneintranet.suite` buildout, but you still have to run the initialization code::
+
+  cd src/ploneintranet.theme # toplevel ploneintranet.theme
+  make release
+
+* Checkout the egg into your Plone installation (with Diazo support).
 * Include ploneintranet.theme in your eggs section and run buildout
-* Now initialise the theme by changing into src/ploneintranet.theme and running 'make release'.
-  This will build all javascript dependencies and create the initial diazo theme structure
-* Start Plone
+* Now initialise the theme by building all javascript dependencies and creating the initial diazo theme structure (see code above)
+* (Re)Start Plone
 * Install the ploneintranet.theme Add On
 
 The theme should now be activated. Be careful, this is currently heavy work in progress.
+
 
 Component Development
 ---------------------
