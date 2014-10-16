@@ -36,6 +36,7 @@
         "jquery.placeholder": "bower_components/jquery-placeholder/jquery.placeholder.min",
         "jquery.textchange": "bower_components/jquery-textchange/jquery.textchange",
         "spectrum": "bower_components/spectrum/spectrum",
+        "fine-uploader": "bower_components/fine-uploader/build/jquery.fineuploader",
 
         // Core
         "pat-utils": "bower_components/patternslib/src/core/utils",
@@ -91,6 +92,7 @@
         "pat-switch": "bower_components/patternslib/src/pat/switch",
         "pat-toggle": "bower_components/patternslib/src/pat/toggle",
         "pat-tooltip": "bower_components/patternslib/src/pat/tooltip",
+        "pat-upload": "bower_components/pat-upload/src/pat-upload",
         "pat-validate": "bower_components/patternslib/src/pat/validate",
         "pat-zoom": "bower_components/patternslib/src/pat/zoom",
 
@@ -128,15 +130,10 @@
     },
 
     "shim": {
-        "jquery": {
-            "exports": "jQuery"
-        },
-        "jquery.fullcalendar.dnd": {
-            "depends": "jQuery"
-        },
-        "photoswipe": {
-            "depends": "klass"
-        },
+        "fine-uploader": { "depends": "jQuery" },
+        "jquery": { "exports": "jQuery" },
+        "jquery.fullcalendar.dnd": { "depends": "jQuery" },
+        "photoswipe": { "depends": "klass" }
     },
 
     optimize: "none"
