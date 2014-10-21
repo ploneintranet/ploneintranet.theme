@@ -24,6 +24,9 @@
         "parsley": "bower_components/parsleyjs/parsley",
         "parsley.extend": "bower_components/parsleyjs/parsley.extend",
         "modernizr": "bower_components/modernizr/modernizr",
+        "dropzone": "bower_components/dropzone/downloads/dropzone",
+        "underscore": "bower_components/underscore/underscore",
+        "text":  "bower_components/requirejs-text/text",
         "less": "bower_components/less.js/dist/less-1.6.2",
         "prefixfree": "bower_components/prefixfree/prefixfree.min",
         "Markdown.Converter": "bower_components/patternslib/src/legacy/Markdown.Converter",
@@ -133,7 +136,8 @@
         "fine-uploader": { "depends": "jQuery" },
         "jquery": { "exports": "jQuery" },
         "jquery.fullcalendar.dnd": { "depends": "jQuery" },
-        "photoswipe": { "depends": "klass" }
+        "photoswipe": { "depends": "klass" },
+        "underscore": { "exports": "_" }
     },
 
     optimize: "none"
