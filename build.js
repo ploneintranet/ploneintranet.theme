@@ -1,15 +1,15 @@
 {
-    baseUrl: "src",
-    out: "bundle.js",
-    name: "almond",
-    include: ["patterns"],
-    insertRequire: ["patterns"],
+    "baseUrl": "src",
+    "out": "bundle.js",
+    "name": "almond",
+    "include": ["patterns"],
+    "insertRequire": ["patterns"],
 
-    wrap: {
-        endfile: "src/wrap-end.js"
+    "wrap": {
+        "endfile": "src/wrap-end.js"
     },
 
-    paths: {
+    "paths": {
         // Externals
         "almond": "bower_components/almond/almond",
         "jquery": "bower_components/jquery/jquery",
@@ -128,8 +128,7 @@
 
         "pikaday": "bower_components/pikaday/pikaday",
         "pikaday.jquery": "bower_components/pikaday/plugins/pikaday.jquery",
-        "pat-polyfill-date": "bower_components/patterns.polyfill-date/polyfill-date",
-
+        "pat-polyfill-date": "bower_components/patterns.polyfill-date/polyfill-date"
     },
 
     "shim": {
@@ -139,6 +138,5 @@
         "photoswipe": { "depends": "klass" },
         "underscore": { "exports": "_" }
     },
-
-    optimize: "none"
+    "optimize": "none"
 }
