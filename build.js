@@ -91,6 +91,7 @@
         "pat-slideshow-builder": "bower_components/patternslib/src/pat/slideshow-builder",
         "pat-sortable": "bower_components/patternslib/src/pat/sortable",
         "pat-stacks": "bower_components/patternslib/src/pat/stacks",
+        "pat-resourcepolling": "bower_components/pat-resourcepolling/src/pat-resourcepolling",
         "pat-subform": "bower_components/patternslib/src/pat/subform",
         "pat-switch": "bower_components/patternslib/src/pat/switch",
         "pat-toggle": "bower_components/patternslib/src/pat/toggle",
