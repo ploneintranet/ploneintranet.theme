@@ -23,7 +23,7 @@ DIAZO_DIR   = src/ploneintranet/theme/static
 
 LATEST          = $(shell cat LATEST)
 BUNDLENAME      = ploneintranet
-BUNDLEURL		= http://products.syslab.com/packages/$(BUNDLENAME)/$(LATEST)/$(BUNDLENAME)-$(LATEST).tar.gz
+BUNDLEURL		= https://products.syslab.com/packages/$(BUNDLENAME)/$(LATEST)/$(BUNDLENAME)-$(LATEST).tar.gz
 
 
 all:: bundle.js
@@ -91,7 +91,7 @@ jsrelease: bundle.js
 	mkdir -p release
 	cp prototype/bundles/$(BUNDLENAME)-$(RELEASE).js release
 	tar cfz release/$(BUNDLENAME)-$(RELEASE).js.tar.gz -C release $(BUNDLENAME)-$(RELEASE).js
-	curl -X POST -F 'content=@release/$(BUNDLENAME)-$(RELEASE).js.tar.gz' 'http://products.syslab.com/?name=$(BUNDLENAME)&version=$(RELEASE)&:action=file_upload'
+	curl -X POST -F 'content=@release/$(BUNDLENAME)-$(RELEASE).js.tar.gz' 'https://products.syslab.com/?name=$(BUNDLENAME)&version=$(RELEASE)&:action=file_upload'
 	rm release/$(BUNDLENAME)-$(RELEASE).js.tar.gz
 	echo "Upload done."
 	echo "$(RELEASE)" > LATEST
