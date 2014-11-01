@@ -42,6 +42,7 @@ You can check node is present via::
 
 - jekyll > 1.5 install following the instructions on
   https://help.github.com/articles/using-jekyll-with-pages
+  *(skip the Gemfile part, it is already provided and covered some steps later)*
 
 On ubuntu::
 
