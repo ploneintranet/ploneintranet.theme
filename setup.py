@@ -38,7 +38,6 @@ setup(
         'Plone',
         'plone.app.theming',
         'setuptools',
-        'wildcard.foldercontents',
         'z3c.jbot',
     ],
     extras_require={
