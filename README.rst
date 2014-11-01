@@ -38,7 +38,7 @@ Prerequisites:
 
 You can check node is present via::
 
-  nodejs -v
+  node -v
 
 - jekyll > 1.5 install following the instructions on
   https://help.github.com/articles/using-jekyll-with-pages
