@@ -29,4 +29,23 @@
       permission="zope2.View"
       />
 
+  <browser:view
+      name="enable_theme"
+      for="*"
+      class=".themeswitcher.EnableTheme"
+      permission="zope.Public"
+      />
+
+  <browser:view
+      name="disable_theme"
+      for="*"
+      class=".themeswitcher.DisableTheme"
+      permission="zope.Public"
+      />
+
+  <utility
+      factory=".plugin.ThemeSwitcherPlugin"
+      name="themeswitcher"
+      />
+
 </configure>
