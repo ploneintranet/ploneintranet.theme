@@ -33,5 +33,5 @@ class ThemeSwitcherPlugin(object):
         session = sdm.getSessionData(create=False)
         if session is None:
             return
-        if session.get(THEME_SWITCHER_SESSION_ID):
-            request.response.setHeader('X-Theme-Disabled', True)
+#        if session.get(THEME_SWITCHER_SESSION_ID):
+#            request.response.setHeader('X-Theme-Disabled', True)

@@ -47,5 +47,10 @@
       factory=".plugin.ThemeSwitcherPlugin"
       name="themeswitcher"
       />
-
+  <browser:page
+      for="*"
+      name="themeswitcher_intranet"
+      class=".themeswitcher.SessionThemeSwitcher"
+      permission="zope2.View"
+      />
 </configure>
