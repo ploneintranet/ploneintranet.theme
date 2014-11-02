@@ -40,8 +40,8 @@ You can check node is present via::
 
   node -v
 
-If any node.js troubles are encountoured in the standalone installation, it
-is recommended to install nodeenv. Nodeenv is a isolated environment to install
+If any node.js related problems are encountered during the standalone installation,
+it is recommended to install nodeenv. Nodeenv is a isolated environment to install
 node.js packages, nodeenv uses virtualenv::
 
     # in your virtualenv
