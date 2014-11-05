@@ -39,6 +39,7 @@ setup(
         'plone.app.theming',
         'setuptools',
         'z3c.jbot',
+        'collective.themeswitcher',
     ],
     extras_require={
         'develop': [
