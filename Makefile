@@ -52,7 +52,7 @@ clean::
 
 check:: jshint test-bundle
 jshint: stamp-npm
-	$(JSHINT) --config jshintrc $(CHECKSOURCES)
+	$(JSHINT) --config jshintrc $(CHECKSOURCES) build.js
 
 
 check:: stamp-npm
@@ -74,7 +74,7 @@ bundle bundle.js: stamp-bower $(GENERATED) $(SOURCES) build.js jekyll
 	ln -sf $(BUNDLENAME)-$(RELEASE).min.js prototype/bundles/$(BUNDLENAME).min.js
 	cp prototype/bundles/$(BUNDLENAME)-$(RELEASE).min.js prototype/_site/bundles/$(BUNDLENAME).min.js
 
-test-bundle test-bundle.js: $(GENERATED) $(SOURCES) test-build.js stamp-bower
+test-bundle test-bundle.js: stamp-bower $(GENERATED) $(SOURCES) test-build.js
 	node_modules/.bin/r.js -o test-build.js
 
 
