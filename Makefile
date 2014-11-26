@@ -176,7 +176,7 @@ docker-run:
                 -e SSH_AUTH_SOCK=/tmp/auth.sock \
                 -v $(PWD):/app -w /app -u app $(PROJECT)
 
-jekyll-run:
+demo:
 	cd prototype &&	LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8 bundle exec jekyll serve --watch --baseurl ""
 
 .ssh/known_hosts:

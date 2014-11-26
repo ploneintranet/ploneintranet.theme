@@ -31,18 +31,34 @@ Package layout
 Standalone Installation: using docker
 -------------------------------------
 
+The docker-based installation manages all dependencies for you.
+
 Prerequisites: docker https://docs.docker.com/installation/#installation
 
-# prepare container
-make docker-build
+For example on Ubuntu, install docker::
 
-# enter the virtual
-make docker-run
+  sudo apt-get install -y docker.io
 
-# compile the prototype
-make
+You need to prepare the container once::
 
-See below under 'Installation into Plone' for further steps.
+  make docker-build
+
+Enter the virtual::
+
+  make docker-run
+
+Compile the prototype::
+
+  make
+
+Run the standalone prototype::
+
+  make demo
+
+You can now access the clickable prototype on localhost:4000.
+
+See below under 'Installation into Plone' for integration of
+the theme resource bundles into a Plone installation.
 
 
 Standalone Installation: without docker
@@ -119,8 +135,7 @@ Component Development
 
 Start the jekyll server::
 
-  cd prototype
-  bundle exec jekyll serve --watch --baseurl ""
+  make demo
 
 You can now see the current prototype (on `localhost:4000`) and edit.
 
