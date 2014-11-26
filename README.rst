@@ -28,9 +28,25 @@ Package layout
   project
 
 
+Standalone Installation: using docker
+-------------------------------------
 
-Standalone Installation
------------------------
+Prerequisites: docker https://docs.docker.com/installation/#installation
+
+# prepare container
+make docker-build
+
+# enter the virtual
+make docker-run
+
+# compile the prototype
+make
+
+See below under 'Installation into Plone' for further steps.
+
+
+Standalone Installation: without docker
+---------------------------------------
 
 Prerequisites:
 
