@@ -57,6 +57,12 @@ Run the standalone prototype::
 
 You can now access the clickable prototype on localhost:4000.
 
+To re-access an already compiled prototype you only need to start docker 
+and run the demo server::
+
+  make docker-run
+  make demo
+
 See below under 'Installation into Plone' for integration of
 the theme resource bundles into a Plone installation.
 
