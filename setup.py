@@ -37,8 +37,8 @@ setup(
     install_requires=[
         'Plone',
         'plone.app.theming',
+        'jarn.jsi18n',  # BBB: This should be moved elsewhere (ale-rt)
         'setuptools',
-        'wildcard.foldercontents',
         'z3c.jbot',
     ],
     extras_require={

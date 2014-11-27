@@ -109,10 +109,10 @@ designerhappy:
 
 
 gems:
-	cd prototype; bundle install
+	cd prototype && mkdir -p .bundle/gemfiles && bundle install --path .bundle/gemfiles
 
 jekyll: gems
-	cd prototype; bundle exec jekyll build
+	cd prototype && bundle exec jekyll build
 
 dev: jekyll
 	# Set up development environment
@@ -154,3 +154,33 @@ clean::
 
 
 .PHONY: all bundle clean check jshint tests check-clean release
+
+####################################################################
+# docker.io
+
+PROJECT=ploneintranet.theme
+
+docker-build: .ssh/known_hosts
+	docker build -t $(PROJECT) .
+
+# re-uses ssh agent
+# also loads your standard .bashrc
+docker-run:
+	docker run -i -t \
+                --net=host \
+                -v $(SSH_AUTH_SOCK):/tmp/auth.sock \
+                -v /var/tmp:/var/tmp \
+                -v $(HOME)/.bashrc:/.bashrc \
+                -v $(HOME)/.gitconfig:/.gitconfig \
+                -v $(HOME)/.gitignore:/.gitignore \
+                -e SSH_AUTH_SOCK=/tmp/auth.sock \
+                -v $(PWD):/app -w /app -u app $(PROJECT)
+
+demo:
+	cd prototype &&	LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8 bundle exec jekyll serve --watch --baseurl ""
+
+.ssh/known_hosts:
+	mkdir -p .ssh
+	echo "|1|YftEEH4HWPOfSNPY/5DKE9sxj4Q=|UDelHrh+qov24v5GlRh2YCCWcRM= ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==" > .ssh/known_hosts
+
+

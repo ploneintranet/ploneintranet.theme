@@ -96,8 +96,13 @@
         "pat-toggle": "bower_components/patternslib/src/pat/toggle",
         "pat-tooltip": "bower_components/patternslib/src/pat/tooltip",
         "pat-upload": "bower_components/pat-upload/src/pat-upload",
+        "pat-updatesocial": "bower_components/pat-updatesocial/src/pat-updatesocial",
         "pat-validate": "bower_components/patternslib/src/pat/validate",
         "pat-zoom": "bower_components/patternslib/src/pat/zoom",
+
+        // Templates for pat-upload
+        "upload": "bower_components/pat-upload/src/templates/upload.xml",
+        "preview":  "bower_components/pat-upload/src/templates/preview.xml",
 
         // Project Patterns
         "patterns": "patterns",
