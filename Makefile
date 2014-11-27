@@ -176,8 +176,14 @@ docker-run:
                 -e SSH_AUTH_SOCK=/tmp/auth.sock \
                 -v $(PWD):/app -w /app -u app $(PROJECT)
 
-demo:
+# for development
+demo-run:
 	cd prototype &&	LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8 bundle exec jekyll serve --watch --baseurl ""
+
+# for demo.ploneintranet.net deployment
+demo-build:
+	cd prototype &&	LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8 bundle exec jekyll build
+
 
 .ssh/known_hosts:
 	mkdir -p .ssh
