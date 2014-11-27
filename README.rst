@@ -38,6 +38,7 @@ Prerequisites: docker https://docs.docker.com/installation/#installation
 For example on Ubuntu, install docker::
 
   sudo apt-get install -y docker.io
+  adduser myuserid docker
 
 You need to prepare the container once::
 
