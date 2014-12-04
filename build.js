@@ -132,6 +132,10 @@
         "packery": "bower_components/packery/js/packery",
         "pat-packery": "bower_components/pat-packery/src/pat-packery",
 
+        // Pat Masonry
+        "masonry": "bower_components/masonry/masonry",
+        "pat-masonry": "bower_components/pat-masonry/src/pat-masonry",
+
         "pikaday": "bower_components/pikaday/pikaday",
         "pikaday.jquery": "bower_components/pikaday/plugins/pikaday.jquery",
         "pat-polyfill-date": "bower_components/patterns.polyfill-date/polyfill-date"
