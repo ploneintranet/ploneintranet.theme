@@ -28,7 +28,7 @@ setup(
     author='Plone Intranet Team',
     author_email='plone-developers@lists.sourceforge.net',
     url='http://pypi.python.org/pypi/ploneintranet.theme',
-    license='BSD',
+    license='GPL',
     packages=find_packages('src', exclude=['ez_setup']),
     namespace_packages=['ploneintranet'],
     package_dir={'': 'src'},
