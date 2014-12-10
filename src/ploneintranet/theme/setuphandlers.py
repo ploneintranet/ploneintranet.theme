@@ -16,5 +16,7 @@ def configureFrontPage(context):
     site = context.getSite()
     if "front-page" in site.objectIds():
         site.manage_delObjects(['front-page'])
-    site.manage_delProperties(ids=['default_page'])
-    site.manage_addProperty(id='layout', value='dashboard.html', type='string')
+    if site.hasProperty('default_page'):
+        site.manage_delProperties(ids=['default_page'])
+    if not site.hasProperty('layout'):
+        site.manage_addProperty(id='layout', value='dashboard.html', type='string')
