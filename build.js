@@ -97,7 +97,7 @@
         "pat-toggle": "bower_components/patternslib/src/pat/toggle",
         "pat-tooltip": "bower_components/patternslib/src/pat/tooltip",
         "pat-upload": "bower_components/pat-upload/src/pat-upload",
-        "pat-updatesocial": "bower_components/pat-updatesocial/src/pat-updatesocial",
+        "pat-content-mirror": "bower_components/pat-content-mirror/src/pat-content-mirror",
         "pat-validate": "bower_components/patternslib/src/pat/validate",
         "pat-zoom": "bower_components/patternslib/src/pat/zoom",
 
