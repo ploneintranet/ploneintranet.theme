@@ -67,8 +67,11 @@
             </div>
         {% endif %}
         <div class="button-bar">
-            <a class="iconified icon-user-add pat-tooltip" data-pat-tooltip="position: tl; source: ajax; class: mentions;" href="/feedback/panel-mentions.html#content">Mention people</a>
-
+            <a class="iconified icon-user-add pat-tooltip" data-pat-tooltip="position: tl; source: ajax; class: mentions;" href="{{ page.url }}#select-mentions-{{ include.id }}">Mention people</a>
+<div id="select-mentions-{{ include.id }}" style="display:none;">
+    {% capture theid %}mentions-{{ include.id }}{% endcapture %}
+    {% include item-selector.html action="feedback-users.html" autosubmit="true" feedback="/feedback/update-social-mentions-feedback.html" listitems="select" mode="users" id=theid %}
+</div>
             <a class="iconified icon-tags pat-tooltip" data-pat-tooltip="position: tl; source: ajax; class: tags;" href="/feedback/panel-tags.html#content">Add tags</a>
 
             <button class="pat-switch close-panel" data-pat-switch="#{{ include.id }} status-* status-inactive" type="submit">Post</button>

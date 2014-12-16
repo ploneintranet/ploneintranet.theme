@@ -1,7 +1,6 @@
 <div class="item-selector mode-{{ include.listitems }}" id="{{ include.id }}">
 <!-- <div class="item-selector mode-select" id="{{ include.id }}"> -->
     <div class="button-bar functions" id="{{ include.id }}-functions">
-        {% if include.mode == "docs" %}
             <div class="contextual buttons float-before" id="{{ include.id }}-contextual-functions">
                 {% if include.mode == 'docs' %}
                     {% if page.parent != 'root' %}
@@ -36,7 +35,6 @@
 
             <a class="{{ include.id }}-toggle-select more-menu-trigger">Functions</a>
 
-        {% endif %}
     </div>
 
     <form class="search-box pat-inject pat-autosubmit" action="{{ include.searchresult }}#items">
