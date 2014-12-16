@@ -1,6 +1,6 @@
-<div class="item-selector mode-{{ include.listitems }}" id="{{ include.id }}">
+<div class="item-selector mode-{{ include.mode }}" id="{{ include.id }}">
+    {% if include.mode == "docs" %}
     <div class="button-bar functions" id="{{ include.id }}-functions">
-        {% if include.mode == "docs" %}
             <div class="contextual buttons float-before" id="{{ include.id }}-contextual-functions">
                 {% if include.mode == 'docs' %}
                     {% if page.parent != 'root' %}
@@ -35,9 +35,9 @@
 
             <a class="{{ include.id }}-toggle-select more-menu-trigger">Functions</a>
 
-        {% endif %}       
-    </div>
 
+    </div>
+    {% endif %}
     <form class="search-box pat-inject pat-autosubmit" action="/feedback/{{ include.action }}#items">
         <label>
             <input name="" type="search" placeholder="Search" />
@@ -120,7 +120,7 @@
                 {% for doc in site.posts %}
                     {% if doc.parent == include.title and (doc.layout == 'event' or doc.layout ==  'news' or doc.layout == 'document'  or doc.layout == 'folder') %}
                         {% if doc.folderish == false %}
-                            <!-- Each document has a class name on the label element that indicates the document type. 
+                            <!-- Each document has a class name on the label element that indicates the document type.
 
                             Supported types include (class names):
 
@@ -214,13 +214,13 @@
                 <li>
                     <label class=" icon-upload-cloud"><input multiple type="file"> Upload file(s)</label>
                 </li>
-                <li> 
+                <li>
                     {% if include.toggle == 'true' %}
                         <a class="pat-toggle icon-ok {{ include.id }}-toggle-select" data-pat-toggle="selector: #{{ include.id }}; value: mode-select mode-follow">Select</a>
                     {% endif %}
                 </li>
             </ul>
-        </div> 
+        </div>
 
         <div hidden id="{{ include.id }}-create-menu">
             <ul class="menu">
