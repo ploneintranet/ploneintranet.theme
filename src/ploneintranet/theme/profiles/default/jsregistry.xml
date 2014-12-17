@@ -2,5 +2,6 @@
 <object name="portal_javascripts" meta_type="JavaScripts Registry">
  <javascript authenticated="False" cacheable="True" compression="safe"
     conditionalcomment="" cookable="True" enabled="True" expression=""
+    insert-after="++resource++plone.app.jquery.js"
     id="++theme++ploneintranet.theme/generated/bundles/ploneintranet.js" inline="False"/>
 </object>
