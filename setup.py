@@ -40,6 +40,8 @@ setup(
         'jarn.jsi18n',  # BBB: This should be moved elsewhere (ale-rt)
         'setuptools',
         'z3c.jbot',
+        'plone.tiles',
+        'plone.app.blocks',
     ],
     extras_require={
         'develop': [
