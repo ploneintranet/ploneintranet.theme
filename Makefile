@@ -174,15 +174,17 @@ docker-run:
                 -v $(HOME)/.gitconfig:/.gitconfig \
                 -v $(HOME)/.gitignore:/.gitignore \
                 -e SSH_AUTH_SOCK=/tmp/auth.sock \
+		-e LC_ALL=en_US.UTF-8 \
+		-e LANG=en_US.UTF-8 \
                 -v $(PWD):/app -w /app -u app $(PROJECT)
 
 # for development
 demo-run:
-	cd prototype &&	LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8 bundle exec jekyll serve --watch --baseurl ""
+	cd prototype &&	bundle exec jekyll serve --watch --baseurl ""
 
 # for demo.ploneintranet.net deployment
 demo-build:
-	cd prototype &&	LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8 bundle exec jekyll build
+	cd prototype &&	bundle exec jekyll build
 
 
 .ssh/known_hosts:
