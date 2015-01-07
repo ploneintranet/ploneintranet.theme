@@ -7,6 +7,8 @@ Changelog
 0.1 (unreleased)
 ----------------
 
-- Initial release.
-  [YOUR NAME HERE]
+- make tile based html dashboard
+  [maartenkling]
 
+- copy over notification-link
+  [maartenkling]

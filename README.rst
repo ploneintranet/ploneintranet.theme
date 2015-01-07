@@ -28,9 +28,48 @@ Package layout
   project
 
 
+Standalone Installation: using docker
+-------------------------------------
 
-Standalone Installation
------------------------
+The docker-based installation manages all dependencies for you.
+
+Prerequisites: docker https://docs.docker.com/installation/#installation
+
+For example on Ubuntu, install docker::
+
+  sudo apt-get install -y docker.io
+  adduser myuserid docker
+
+You need to prepare the container once::
+
+  make docker-build
+
+Enter the virtual::
+
+  make docker-run
+
+Compile the prototype::
+
+  make all
+
+Run the standalone prototype::
+
+  make demo-run
+
+You can now access the clickable prototype on localhost:4000.
+
+To re-access an already compiled prototype you only need to start docker 
+and run the demo server::
+
+  make docker-run
+  make demo-run
+
+See below under 'Installation into Plone' for integration of
+the theme resource bundles into a Plone installation.
+
+
+Standalone Installation: without docker
+---------------------------------------
 
 Prerequisites:
 
@@ -103,8 +142,7 @@ Component Development
 
 Start the jekyll server::
 
-  cd prototype
-  bundle exec jekyll serve --watch --baseurl ""
+  make demo
 
 You can now see the current prototype (on `localhost:4000`) and edit.
 
@@ -222,3 +260,20 @@ A: sudo ln -s /usr/bin/nodejs /usr/bin/node
 Q: I get Errors in the log of type  IOError: Error reading file '/++theme++ploneintranet.theme/prototype/home.html': failed to load external entity "/++theme++ploneintranet.theme/prototype/home.html". What's wrong?
 
 A: Did you run 'make release' in the theme checkout as descibed above?
+
+Copyright (c) Plone Foundation
+------------------------------
+
+This package is Copyright (c) Plone Foundation.
+
+Any contribution to this package implies consent and intent to irrevocably transfer all 
+copyrights on the code you contribute, to the `Plone Foundation`_, 
+under the condition that the code remains under a `OSI-approved license`_.
+
+To contribute, you need to have signed a Plone Foundation `contributor agreement`_.
+If you're `listed on Github`_ as a member of the Plone organization, you already signed.
+
+.. _Plone Foundation: https://plone.org/foundation
+.. _OSI-approved license: http://opensource.org/licenses
+.. _contributor agreement: https://plone.org/foundation/contributors-agreement
+.. _listed on Github: https://github.com/orgs/plone/people

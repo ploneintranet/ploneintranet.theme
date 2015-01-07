@@ -16,3 +16,6 @@ src/ploneintranet/theme/static/generated
 *.sw[op]
 *.egg-info
 *.pyc
+test-bundle.js
+.ssh/
+prototype/.bundle

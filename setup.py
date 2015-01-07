@@ -28,7 +28,7 @@ setup(
     author='Plone Intranet Team',
     author_email='plone-developers@lists.sourceforge.net',
     url='http://pypi.python.org/pypi/ploneintranet.theme',
-    license='BSD',
+    license='GPL',
     packages=find_packages('src', exclude=['ez_setup']),
     namespace_packages=['ploneintranet'],
     package_dir={'': 'src'},
@@ -37,9 +37,11 @@ setup(
     install_requires=[
         'Plone',
         'plone.app.theming',
+        'jarn.jsi18n',  # BBB: This should be moved elsewhere (ale-rt)
         'setuptools',
-        'wildcard.foldercontents',
         'z3c.jbot',
+        'plone.tiles',
+        'plone.app.blocks',
     ],
     extras_require={
         'develop': [

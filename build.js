@@ -97,8 +97,13 @@
         "pat-toggle": "bower_components/patternslib/src/pat/toggle",
         "pat-tooltip": "bower_components/patternslib/src/pat/tooltip",
         "pat-upload": "bower_components/pat-upload/src/pat-upload",
+        "pat-content-mirror": "bower_components/pat-content-mirror/src/pat-content-mirror",
         "pat-validate": "bower_components/patternslib/src/pat/validate",
         "pat-zoom": "bower_components/patternslib/src/pat/zoom",
+
+        // Templates for pat-upload
+        "upload": "bower_components/pat-upload/src/templates/upload.xml",
+        "preview":  "bower_components/pat-upload/src/templates/preview.xml",
 
         // Project Patterns
         "patterns": "patterns",
@@ -126,6 +131,10 @@
         "item": "bower_components/packery/js/item",
         "packery": "bower_components/packery/js/packery",
         "pat-packery": "bower_components/pat-packery/src/pat-packery",
+
+        // Pat Masonry
+        "masonry": "bower_components/masonry/masonry",
+        "pat-masonry": "bower_components/pat-masonry/src/pat-masonry",
 
         "pikaday": "bower_components/pikaday/pikaday",
         "pikaday.jquery": "bower_components/pikaday/plugins/pikaday.jquery",
