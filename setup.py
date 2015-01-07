@@ -42,6 +42,7 @@ setup(
         'z3c.jbot',
         'plone.tiles',
         'plone.app.blocks',
+        'ploneintranet.workspace',
     ],
     extras_require={
         'develop': [
