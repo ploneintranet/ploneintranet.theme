@@ -80,7 +80,7 @@
         "pat-inject": "bower_components/patternslib/src/pat/inject",
         "pat-legend": "bower_components/patternslib/src/pat/legend",
         "pat-markdown": "bower_components/patternslib/src/pat/markdown",
-        "pat-masonry": "bower_components/pat-masonry/src/pat-masonry",
+        "pat-masonry": "bower_components/patternslib/src/pat/masonry",
         "pat-menu": "bower_components/patternslib/src/pat/menu",
         "pat-modal": "bower_components/patternslib/src/pat/modal",
         "pat-navigation": "bower_components/patternslib/src/pat/navigation",
