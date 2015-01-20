@@ -80,6 +80,7 @@
         "pat-inject": "bower_components/patternslib/src/pat/inject",
         "pat-legend": "bower_components/patternslib/src/pat/legend",
         "pat-markdown": "bower_components/patternslib/src/pat/markdown",
+        "pat-masonry": "bower_components/patternslib/src/pat/masonry",
         "pat-menu": "bower_components/patternslib/src/pat/menu",
         "pat-modal": "bower_components/patternslib/src/pat/modal",
         "pat-navigation": "bower_components/patternslib/src/pat/navigation",
@@ -97,8 +98,13 @@
         "pat-toggle": "bower_components/patternslib/src/pat/toggle",
         "pat-tooltip": "bower_components/patternslib/src/pat/tooltip",
         "pat-upload": "bower_components/pat-upload/src/pat-upload",
+        "pat-content-mirror": "bower_components/pat-content-mirror/src/pat-content-mirror",
         "pat-validate": "bower_components/patternslib/src/pat/validate",
         "pat-zoom": "bower_components/patternslib/src/pat/zoom",
+
+        // Templates for pat-upload
+        "upload": "bower_components/pat-upload/src/templates/upload.xml",
+        "preview":  "bower_components/pat-upload/src/templates/preview.xml",
 
         // Project Patterns
         "patterns": "patterns",
@@ -109,23 +115,16 @@
         "pat-calendar": "bower_components/pat-calendar/src/calendar",
         "pat-calendar-moment-timezone-data": "bower_components/pat-calendar/src/moment-timezone-data",
 
-        // Pat Packery
-        "classie/classie": "bower_components/classie/classie",
-        "get-style-property/get-style-property": "bower_components/get-style-property/get-style-property",
-        "get-size/get-size": "bower_components/get-size/get-size",
-        "eventie/eventie": "bower_components/eventie/eventie",
-        "doc-ready/doc-ready": "bower_components/doc-ready/doc-ready",
-        "eventEmitter/EventEmitter": "bower_components/eventEmitter/EventEmitter",
-        "imagesloaded": "bower_components/imagesloaded/imagesloaded",
-        "outlayer/outlayer": "bower_components/outlayer/outlayer",
-        "outlayer/item": "bower_components/outlayer/item",
-        "jQuery.bridget": "bower_components/jquery-bridget/jquery-bridget",
-        "matches-selector/matches-selector": "bower_components/matches-selector/matches-selector",
-        "rect": "bower_components/packery/js/rect",
-        "packer": "bower_components/packery/js/packer",
-        "item": "bower_components/packery/js/item",
-        "packery": "bower_components/packery/js/packery",
-        "pat-packery": "bower_components/pat-packery/src/pat-packery",
+        // Pat Masonry
+        "doc-ready":            "bower_components/doc-ready",
+        "eventEmitter":         "bower_components/eventEmitter",
+        "eventie":              "bower_components/eventie",
+        "get-size":             "bower_components/get-size",
+        "get-style-property":   "bower_components/get-style-property",
+        "imagesloaded":         "bower_components/imagesloaded/imagesloaded",
+        "masonry":              "bower_components/masonry/masonry",
+        "matches-selector":     "bower_components/matches-selector",
+        "outlayer":             "bower_components/outlayer",
 
         "pikaday": "bower_components/pikaday/pikaday",
         "pikaday.jquery": "bower_components/pikaday/plugins/pikaday.jquery",

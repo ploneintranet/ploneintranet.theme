@@ -28,18 +28,22 @@ setup(
     author='Plone Intranet Team',
     author_email='plone-developers@lists.sourceforge.net',
     url='http://pypi.python.org/pypi/ploneintranet.theme',
-    license='BSD',
+    license='GPL',
     packages=find_packages('src', exclude=['ez_setup']),
     namespace_packages=['ploneintranet'],
     package_dir={'': 'src'},
     include_package_data=True,
     zip_safe=False,
     install_requires=[
+        'collective.themeswitcher',
+        'jarn.jsi18n',  # BBB: This should be moved elsewhere (ale-rt)
         'Plone',
+        'plone.app.blocks',
         'plone.app.theming',
+        'ploneintranet.workspace',
+        'plone.tiles',
         'setuptools',
         'z3c.jbot',
-        'collective.themeswitcher',
     ],
     extras_require={
         'develop': [

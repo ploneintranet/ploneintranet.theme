@@ -1,9 +1,11 @@
+@charset "UTF-8";
+
 .update-social {
     position: relative;
     background-color: #fcfcfc;
 
     &#new-post-box {
-        margin: 0 auto 2em;
+        margin: 0 auto 1em;
         width: 80%;
     }
 
@@ -112,13 +114,56 @@
     .shared-item {
       padding: 0 1em 0.5em 1em;
       overflow: hidden;
+      // border-left: 0.3em #efefef solid;
+      
+      .preview {
+        width: 36%;
+        float: left;
+        padding-top: 0.3em;
+
+        img {
+          background-color: white;
+          border: 1px silver solid;
+        }
+      }
+
+      &.has-preview {
+
+        .summary {
+          width: 60%;
+          float: right;
+        }
+      }
 
       .title {
         margin-bottom: 0;
+        font-size: 0.8em;
+        line-height: 1.4em;
       }
+
       .byline {
         font-size: 0.8em;
+        line-height: 1.4em;
         font-style: italic;
+        margin-bottom: 0.5em;
+      }
+      
+      .description {
+        font-size: 0.8em;
+        line-height: 1.4em;
+        font-style: normal;
+        color: gray;
+        margin-bottom: 0.5em;
+      }
+
+      .share-quote {
+        font-size: 0.8em;
+        line-height: 1.4em;
+        border-left: solid 0.3em silver;
+        padding-left: 0.5em;
+        font-style: italic;
+        color: gray;
+        margin-bottom: 0.5em;
       }
     }
 
@@ -162,9 +207,9 @@
     }
 }
 
-.application-workspace #new-post-box {
-  margin-top: 2em;
-  margin-bottom: 2em;
+.application-workspace #post-box {
+  width: 80%;
+  margin: 2em auto;
 }
 
 .pat-modal .update-social {
