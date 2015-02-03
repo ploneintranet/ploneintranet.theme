@@ -44,7 +44,7 @@
         </label>
     </form>
 
-    <form class="search-result {{ include.mode }} {% if include.autosubmit == 'true' %}pat-autosubmit{% endif %} pat-inject" data-pat-inject="target: body::after" action="{{ include.action }}" id="items">
+    <form class="search-result {{ include.mode }} {% if include.autosubmit == 'true' %}pat-autosubmit{% endif %} pat-inject" data-pat-inject="target:#{{include.targetid}}::after; source:#{{include.targetid}}" action="{{ include.action }}" id="items">
         <fieldset class="checklist pat-checklist {{ include.mode }} {{ include.browse-mode }}">
 
             {% if include.mode == "docs" %}
