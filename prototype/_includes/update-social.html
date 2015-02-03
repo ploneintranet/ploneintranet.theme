@@ -103,11 +103,11 @@
 </form>
 <div id="wrap-select-users-{{ include.id }}" style="display:none;">
     {% capture theid %}users-{{ include.id }}{% endcapture %}
-    {% capture inject %}target: #selected-users-{{ include.id }}::after{% endcapture %}
-    {% include item-selector.html action="feedback/feedback-users.html" autosubmit="true" feedback="/feedback/update-social-mentions-feedback.html" listitems="select" mode="users" id=theid inject=inject %}
+    {% capture inject %}target: #selected-users-{{ include.id }}::after; source: #selected-users-feedback{% endcapture %}
+    {% include item-selector.html action="/feedback/update-social-mentions-feedback.html" autosubmit="true" listitems="select" mode="users" id=theid inject=inject %}
 </div>
 <div id="wrap-select-tags-{{ include.id }}" style="display:none;">
     {% capture theid %}tags-{{ include.id }}{% endcapture %}
-    {% capture inject %}target: #selected-tags-{{ include.id }}::after{% endcapture %}
-    {% include item-selector.html action="feedback/feedback-tags.html" autosubmit="true" feedback="/feedback/update-social-tags-feedback.html" listitems="select" mode="tags" id=theid inject=inject %}
+    {% capture inject %}target: #selected-tags-{{ include.id }}::after; source: #selected-tags-feedback{% endcapture %}
+    {% include item-selector.html action="/feedback/update-social-tags-feedback.html" autosubmit="true" listitems="select" mode="tags" id=theid inject=inject %}
 </div>
