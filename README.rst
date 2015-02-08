@@ -1,3 +1,6 @@
+.. image:: https://badge.waffle.io/ploneintranet/ploneintranet.theme.png?label=ready&title=Ready 
+ :target: https://waffle.io/ploneintranet/ploneintranet.theme
+ :alt: 'Stories in Ready'
 Ploneintranet Theme
 ===================
 
