@@ -128,7 +128,10 @@
 
         "pikaday": "bower_components/pikaday/pikaday",
         "pikaday.jquery": "bower_components/pikaday/plugins/pikaday.jquery",
-        "pat-polyfill-date": "bower_components/patterns.polyfill-date/polyfill-date"
+        "pat-polyfill-date": "bower_components/patterns.polyfill-date/polyfill-date",
+        "mockup-parser": "bower_components/mockup-core/js/parser",
+        "mockup-patterns-base": "bower_components/mockup-core/js/pattern",
+        "i18n": "bower_components/patternslib/src/core/i18n"
     },
 
     "shim": {
