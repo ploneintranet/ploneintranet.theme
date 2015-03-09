@@ -27,6 +27,7 @@ BUNDLEURL		= https://products.syslab.com/packages/$(BUNDLENAME)/$(LATEST)/$(BUND
 
 
 all:: bundle.js diazo
+default: all
 
 ########################################################################
 ## Install dependencies
