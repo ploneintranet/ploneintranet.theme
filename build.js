@@ -26,8 +26,7 @@
         "modernizr": "bower_components/modernizr/modernizr",
         "modernizr-csspositionsticky": "bower_components/modernizr/feature-detects/css-positionsticky",
         "dropzone": "bower_components/dropzone/downloads/dropzone",
-        "lodash": "bower_components/lodash/lodash",
-        "underscore": "bower_components/lodash/lodash",
+        "underscore": "bower_components/underscore/underscore",
         "text":  "bower_components/requirejs-text/text",
         "less": "bower_components/less.js/dist/less-1.6.2",
         "prefixfree": "bower_components/prefixfree/prefixfree.min",
@@ -139,8 +138,7 @@
         "fine-uploader": { "depends": "jQuery" },
         "jquery": { "exports": "jQuery" },
         "jquery.fullcalendar.dnd": { "depends": "jQuery" },
-        "photoswipe": { "depends": "klass" },
-        "underscore": { "exports": "_" }
+        "photoswipe": { "depends": "klass" }
     },
     "optimize": "none"
 }
