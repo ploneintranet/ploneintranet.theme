@@ -24,6 +24,7 @@
         "parsley.extend": "bower_components/parsleyjs/parsley.extend",
         "modernizr": "bower_components/modernizr/modernizr",
         "dropzone": "bower_components/dropzone/downloads/dropzone",
+        "lodash": "bower_components/lodash/lodash",
         "underscore": "bower_components/underscore/underscore",
         "text":  "bower_components/requirejs-text/text",
         "less": "bower_components/less.js/dist/less-1.6.2",
@@ -134,6 +135,7 @@
         "jquery": { "exports": "jQuery" },
         "jquery.fullcalendar.dnd": { "depends": "jQuery" },
         "photoswipe": { "depends": "klass" },
+        "lodash": { "exports": "_" },
         "underscore": { "exports": "_" }
     },
     "optimize": "none"
