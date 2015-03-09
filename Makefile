@@ -26,7 +26,7 @@ BUNDLENAME      = ploneintranet
 BUNDLEURL		= https://products.syslab.com/packages/$(BUNDLENAME)/$(LATEST)/$(BUNDLENAME)-$(LATEST).tar.gz
 
 
-all:: bundle.js
+all:: bundle.js diazo
 
 ########################################################################
 ## Install dependencies
