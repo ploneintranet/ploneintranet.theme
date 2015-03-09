@@ -126,8 +126,7 @@
         "outlayer":             "bower_components/outlayer",
 
         "pikaday": "bower_components/pikaday/pikaday",
-        "pikaday.jquery": "bower_components/pikaday/plugins/pikaday.jquery",
-        "pat-polyfill-date": "bower_components/patterns.polyfill-date/polyfill-date"
+        "pikaday.jquery": "bower_components/pikaday/plugins/pikaday.jquery"
     },
 
     "shim": {
