@@ -43,6 +43,7 @@
         "fine-uploader": "bower_components/fine-uploader/build/jquery.fineuploader",
 
         // Core
+        "pat-base": "bower_components/patternslib/src/core/base",
         "pat-utils": "bower_components/patternslib/src/core/utils",
         "pat-base": "bower_components/patternslib/src/core/base",
         "pat-compat": "bower_components/patternslib/src/core/compat",
