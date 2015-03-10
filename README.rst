@@ -145,7 +145,7 @@ Component Development
 
 Start the jekyll server::
 
-  make demo
+  make demo-run
 
 You can now see the current prototype (on `localhost:4000`) and edit.
 
