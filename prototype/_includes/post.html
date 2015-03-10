@@ -86,7 +86,7 @@
 				{% include comment.html %}
 			{% endfor %}
 		</div>
-		{% capture localtarget %}#comment-trail-{{mypostUID}}{% endcapture %}
+		{% capture localtarget %}#comment-trail-{{mypostUID}}::before{% endcapture %}
 		{% include update-social.html id=mypostUID visibility="false" action="/feedback/comment-well-said.html#comment-trail" %}
 	</div>
 </div>
