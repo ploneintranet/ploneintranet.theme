@@ -132,4 +132,25 @@
     </field>
     <value/>
   </record>
+  <record name="collective.themeswitcher.theme.barceloneta">
+    <field type="plone.registry.field.ASCIILine">
+        <title>Barceloneta theme</title>
+    </field>
+    <value>plonetheme.barceloneta</value>
+  </record>
+  <record name="collective.themeswitcher.switcher">
+    <field type="plone.registry.field.TextLine">
+        <title>Theme switcher</title>
+        <description>The named switcher that will be used</description>
+    </field>
+    <value>themeswitcher_intranet</value>
+  </record>
+  <record name="collective.themeswitcher.absolutePrefix" interface="plone.app.theming.interfaces.IThemeSettings" field="absolutePrefix">
+    <field type="plone.registry.field.TextLine">
+      <description>convert_relative_url</description>
+      <required>False</required>
+      <title>absolute_url_prefix</title>
+    </field>
+    <value>/++theme++plonetheme.mobile</value>
+  </record>
 </registry>

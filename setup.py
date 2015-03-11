@@ -35,14 +35,15 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        'Plone',
-        'plone.app.theming',
+        'collective.themeswitcher',
         'jarn.jsi18n',  # BBB: This should be moved elsewhere (ale-rt)
+        'Plone',
+        'plone.app.blocks',
+        'plone.app.theming',
+        'ploneintranet.workspace',
+        'plone.tiles',
         'setuptools',
         'z3c.jbot',
-        'plone.tiles',
-        'plone.app.blocks',
-        'ploneintranet.workspace',
     ],
     extras_require={
         'develop': [

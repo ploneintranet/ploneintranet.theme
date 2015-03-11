@@ -1,0 +1,1 @@
+THEME_SWITCHER_SESSION_ID = 'ploneintranet.theme.themeswitcher'
