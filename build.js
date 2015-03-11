@@ -145,7 +145,21 @@
         "fine-uploader": { "depends": "jQuery" },
         "jquery": { "exports": "jQuery" },
         "jquery.fullcalendar.dnd": { "depends": "jQuery" },
-        "photoswipe": { "depends": "klass" }
+        "photoswipe": { "depends": "klass" },
+        "rangy": { "exports": "rangy" },
+        "rangy-cssclassapplier": { "deps": ["rangy"] },
+        "rangy-selectionsaverestore": { "deps": ["rangy"] },
+        "rangy-serializer": { "deps": ["rangy"] },
+        "raptor": {
+            "deps": [
+                "jquery",
+                "jqueryui",
+                "jquery-hotkeys",
+                "rangy-cssclassapplier",
+                "rangy-selectionsaverestore",
+                "rangy-serializer"
+            ]
+        }
     },
     "optimize": "none"
 }
