@@ -54,14 +54,9 @@ clean:: clean-stamps
 ########################################################################
 ## Tests
 
-check:: jshint test-bundle
+check:: jshint
 jshint: stamp-npm
-	$(JSHINT) --config jshintrc $(CHECKSOURCES) build.js
-
-
-check:: stamp-npm
-	$(PHANTOMJS) node_modules/phantom-jasmine/lib/run_jasmine_test.coffee tests/TestRunner.html
-
+	$(JSHINT) --config jshintrc $(CHECKSOURCES)
 
 ########################################################################
 ## Bundle generation
@@ -77,10 +72,6 @@ bundle bundle.js: stamp-bower $(GENERATED) $(SOURCES) build.js jekyll
 	mv bundle.min.js prototype/bundles/$(BUNDLENAME)-$(RELEASE).min.js
 	ln -sf $(BUNDLENAME)-$(RELEASE).min.js prototype/bundles/$(BUNDLENAME).min.js
 	cp prototype/bundles/$(BUNDLENAME)-$(RELEASE).min.js prototype/_site/bundles/$(BUNDLENAME).min.js
-
-test-bundle test-bundle.js: stamp-bower $(GENERATED) $(SOURCES) test-build.js
-	node_modules/.bin/r.js -o test-build.js
-
 
 $(PATTERNS)/src/lib/depends_parse.js: $(PATTERNS)/src/lib/depends_parse.pegjs stamp-npm
 	$(PEGJS) $<
