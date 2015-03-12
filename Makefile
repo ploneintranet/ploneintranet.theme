@@ -26,7 +26,8 @@ BUNDLENAME      = ploneintranet
 BUNDLEURL		= https://products.syslab.com/packages/$(BUNDLENAME)/$(LATEST)/$(BUNDLENAME)-$(LATEST).tar.gz
 
 
-all:: bundle.js
+all:: bundle.js diazo
+default: all
 
 ########################################################################
 ## Install dependencies
@@ -39,11 +40,14 @@ stamp-bower: stamp-npm
 	$(BOWER) install
 	touch stamp-bower
 
+
 #patterns:
 #	if test -d src/Patterns; then cd src/Patterns && git pull && cd ../..; else git clone https://github.com/Patternslib/Patterns.git src/Patterns; fi
 
-clean::
+clean-stamps::
 	rm -f stamp-npm stamp-bower
+
+clean:: clean-stamps
 	rm -rf node_modules src/bower_components ~/.cache/bower
 
 

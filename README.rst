@@ -1,3 +1,6 @@
+.. image:: https://badge.waffle.io/ploneintranet/ploneintranet.theme.png?label=ready&title=Ready
+ :target: https://waffle.io/ploneintranet/ploneintranet.theme
+ :alt: 'Stories in Ready'
 Ploneintranet Theme
 ===================
 
@@ -58,7 +61,7 @@ Run the standalone prototype::
 
 You can now access the clickable prototype on localhost:4000.
 
-To re-access an already compiled prototype you only need to start docker 
+To re-access an already compiled prototype you only need to start docker
 and run the demo server::
 
   make docker-run
@@ -142,7 +145,7 @@ Component Development
 
 Start the jekyll server::
 
-  make demo
+  make demo-run
 
 You can now see the current prototype (on `localhost:4000`) and edit.
 
@@ -266,8 +269,8 @@ Copyright (c) Plone Foundation
 
 This package is Copyright (c) Plone Foundation.
 
-Any contribution to this package implies consent and intent to irrevocably transfer all 
-copyrights on the code you contribute, to the `Plone Foundation`_, 
+Any contribution to this package implies consent and intent to irrevocably transfer all
+copyrights on the code you contribute, to the `Plone Foundation`_,
 under the condition that the code remains under a `OSI-approved license`_.
 
 To contribute, you need to have signed a Plone Foundation `contributor agreement`_.
