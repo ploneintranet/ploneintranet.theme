@@ -206,6 +206,13 @@
         &[data-option='Everyone'] {
           background-color: whitesmoke;
         }
+        &[data-option='Closed'] {
+          background-color: $colour-success;
+        }
+        &[data-option='Open'] {
+          background-color: $colour-warning;
+          color: white;
+        }
       }
     }
   }
