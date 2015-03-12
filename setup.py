@@ -42,6 +42,7 @@ setup(
         'z3c.jbot',
         'plone.tiles',
         'plone.app.blocks',
+        'ploneintranet.docconv.client',  # move together with the content views
         'ploneintranet.workspace',
     ],
     extras_require={
